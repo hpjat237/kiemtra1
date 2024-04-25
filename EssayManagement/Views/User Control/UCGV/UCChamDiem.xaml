@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCGV.UCChamDiem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control.UCGV"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border Background="White" CornerRadius="20" Height="550" Width="800">
+        <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
+            <Grid>
+                <TabControl Margin="0,10,0,0" Style="{StaticResource TabControlCapsuleSolid}" BorderThickness="0,0,0,0" Background="White">
+                    <TabItem x:Name="tabHoiDong" Header="Lập hội đồng" FontFamily="Global Sans Serif" FontWeight="Bold">
+                        <Grid>
+                            <DataGrid x:Name="dgvHoiDong" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="20,0,215,20" HorizontalScrollBarVisibility="Disabled" Grid.ColumnSpan="2" Width="565" Height="450">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Width="100" Binding="{Binding MaHoiDong}" Header="Mã Hội đồng" FontWeight="Normal"/>
+                                    <DataGridTextColumn Width="100" Binding="{Binding GVThamGia}" Header="Thành viên 1" FontWeight="Normal" />
+                                    <DataGridTextColumn Width="100" Binding="{Binding }" Header="Thành viên 2" FontWeight="Normal" />
+                                    <DataGridTextColumn Width="100" Binding="{Binding }" Header="Thành viên 3" FontWeight="Normal" />
+                                    <DataGridTemplateColumn>
+                                        <DataGridTemplateColumn.Header>
+                                            <Button x:Name="btnLoad" hc:IconElement.Geometry="{StaticResource RotateRightGeometry}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" FontWeight="Bold" Click="btnLoad_Click" ></Button>
+                                        </DataGridTemplateColumn.Header>
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <Grid Margin="150,0,20,50">
+                                <TextBox x:Name="txtMaGiangVien" Style="{StaticResource TextBoxExtend}" hc:InfoElement.Title="(Tối đa 3)"  hc:InfoElement.Placeholder="Nhập mã giảng viên" VerticalAlignment="Top" Height="60" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" Margin="446,169,-4,0"/>
+                                <Button x:Name="btnThem" Style="{StaticResource ButtonSuccess}" Content="Thêm" Width="60" VerticalAlignment="Top" FontWeight="Bold" Click="btnThem_Click" HorizontalAlignment="Left" Height="30" Margin="467,240,0,0"/>
+                                <Button x:Name="btnXoa" Style="{StaticResource ButtonDanger}" Content="Xóa" Width="60" VerticalAlignment="Top" FontWeight="Bold" Click="btnXoa_Click" HorizontalAlignment="Left" Height="30" Margin="555,241,0,0"/>
+                                <ListBox x:Name="lbThanhVien" RenderTransformOrigin="0.5,0.5" d:ItemsSource="{d:SampleData ItemCount=5}" VerticalContentAlignment="Top" hc:InfoElement.TitlePlacement="Left" Margin="448,21,2,218" Width="180" Height="100">
+                                    <ListBox.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Orientation="Horizontal"/>
+                                        </ItemsPanelTemplate>
+                                    </ListBox.ItemsPanel>
+                                </ListBox>
+                                <Button x:Name="btnDangKy" Style="{StaticResource ButtonPrimary}" Content="Đăng ký " HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="172" Click="btnDangKy_Click" FontWeight="Bold" Margin="0,0,5,-24"></Button>
+                            </Grid>
+                        </Grid>
+                    </TabItem>
+                    <TabItem x:Name="tabChamDiem" Header="Chấm điểm" FontFamily="Global Sans Serif" FontWeight="Bold">
+                        <Grid VerticalAlignment="Top" Height="402" Grid.ColumnSpan="2">
+                            <ScrollViewer Margin="20,0,20,0">
+                                <StackPanel>
+                                    <TextBlock Text="Danh sách luận văn" FontSize="20" FontWeight="Bold" FontFamily="Bahnschrift" HorizontalAlignment="Left" Margin="15,10,0,0"/>
+                                    <WrapPanel x:Name="wpLuanVan" Height="285"></WrapPanel>
+                                </StackPanel>
+                            </ScrollViewer>
+                            <Button x:Name="btnChamDiem" Style="{StaticResource ButtonPrimary}" Content="Chấm Điểm" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Bottom" Width="90" FontWeight="Bold" Click="btnChamDiem_Click" Grid.Column="1" ></Button>
+                            <Button x:Name="btnChiTietLuanVan" Style="{StaticResource ButtonPrimary}" Content="Chi Tiết" Width="88" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,120,0" FontWeight="Bold" Click="btnChiTietLuanVan_Click" Grid.Column="1" />
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </StackPanel>
+    </Border>
+</UserControl>

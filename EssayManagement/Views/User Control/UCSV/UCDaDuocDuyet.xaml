@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCSV.UCDaDuocDuyet"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control.UCSV"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="800">
+    <Border Background="White" CornerRadius="20">
+        <Grid>
+            <TextBox x:Name="txtMaLuanVan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Mã luận văn" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="20,20,430,0" TextChanged="txtMaLuanVan_TextChanged"/>
+            <TextBox x:Name="txtMaDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Mã đề tài" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="20,60,430,0"/>
+            <TextBox x:Name="txtTenDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Tên Đề tài" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="20,100,430,0"/>
+            <TextBox VerticalAlignment="Top" hc:TitleElement.TitleWidth="90" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.Title="Công nghệ" Style="{StaticResource TextBoxExtend}" x:Name="txtCongNghe" IsReadOnly="True" Height="30" Margin="20,140,430,0"/>
+            <ComboBox x:Name="cbLinhVuc" SelectedIndex="0" hc:TitleElement.Title="Lĩnh vực" Style="{StaticResource ComboBoxExtend}" Text="Chọn" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.TitleWidth="90" VerticalAlignment="Top" Height="32" Margin="430,141,21,0" IsReadOnly="True"/>
+            <TextBox x:Name="txtNgayDangKy" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Ngày Đăng Ký" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="430,20,20,0"/>
+            <TextBox x:Name="txtNgayKetThuc" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Ngày Kết Thúc" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="430,60,20,0"/>
+            <TextBox x:Name="txtHoTro" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Hỗ Trợ" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="430,100,20,0"/>
+            <ComboBox x:Name="cbTienDo" Style="{StaticResource ComboBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Tiến độ" Height="30" VerticalAlignment="Top" Margin="526,438,20,0"/>
+
+
+            <TextBox x:Name="txtNhanXet" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="80" hc:InfoElement.Title="Nhận xét" VerticalAlignment="Top" Margin="20,435,303,0" Height="30" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" IsReadOnly="True"/>
+            <TextBox x:Name="txtMoTa" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left"  hc:InfoElement.Placeholder="Mô tả" Margin="20,196,298,269" TextWrapping="Wrap" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top" IsReadOnly="True"/>
+            <TextBox x:Name="txtYeuCau" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Yêu cầu" Margin="20,300,300,124" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top" IsReadOnly="True"/>
+            <TextBox x:Name="txtSVThamGia" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Sinh viên tham gia" Margin="524,199,20,227" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top" IsReadOnly="True"/>
+
+            <Button Style="{StaticResource ButtonPrimary}" Content="Lưu" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="80" FontWeight="Bold" Margin="0,0,20,20" Click="btnLuu_Click"/>
+        </Grid>
+    </Border>
+</UserControl>

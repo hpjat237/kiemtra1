@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucgv\\ucluanvangiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucgv\\ucluanvangiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucgv\\ucthemdetai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucgv\\ucthemdetai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucgv\\ucdetaigiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucgv\\ucdetaigiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucgv\\ucdetaigiangvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucgv\\ucdetaigiangvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\windows\\fsinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\windows\\fsinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucnhom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucnhom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\windows\\fdangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\windows\\fdangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\windows\\fdangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\windows\\fdangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\windows\\fsinhvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\windows\\fsinhvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucthaoluan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucthaoluan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucthongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucthongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\windows\\fgiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\windows\\fgiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\ucthongke.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\ucthongke.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\essaymanagement\\views\\user control\\uctrangchu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5772981-C39B-4348-9F6E-7DB8E8ED6CD4}|EssayManagement\\EssayManagement.csproj|solutionrelative:essaymanagement\\views\\user control\\uctrangchu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\essaymanagement\\views\\user control\\ucluanvan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\cuong python\\mon hoc\\window\\do an\\pull\\essaymanagement\\views\\user control\\ucdetaigiangvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\essaymanagement\\views\\user control\\ucthemdetai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\cuong python\\mon hoc\\window\\do an\\pull\\essaymanagement\\views\\user control\\ucdexuatdetai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\essaymanagement\\views\\user control\\ucdetaigiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\essaymanagement\\views\\user control\\ucluanvangiangvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\cuong python\\mon hoc\\window\\do an\\pull2\\essaymanagement\\views\\user control\\uchs\\ucdexuatdetai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\essaymanagement\\views\\user control\\uchs\\ucdangkyluanvan.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\essaymanagement\\views\\user control\\uchs\\ucdetaisinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\essaymanagement\\views\\user control\\uchs\\ucluanvansinhvien.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\essaymanagement\\views\\user control\\uchs\\ucluanvansinhvien.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UCDangKyLuanVan.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml.cs",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml.cs",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:01:00.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UCDeXuatDeTai.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml.cs",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml.cs",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCcAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:00:48.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCLuanVanGiangVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCLuanVanGiangVien.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCGV\\UCLuanVanGiangVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCLuanVanGiangVien.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCGV\\UCLuanVanGiangVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T17:58:29.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UCDangKyLuanVan.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDangKyLuanVan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T16:51:05.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UCDeXuatDeTai.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeXuatDeTai.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T14:11:10.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCThemDeTai.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCThemDeTai.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCGV\\UCThemDeTai.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCThemDeTai.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCGV\\UCThemDeTai.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T14:16:32.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UCDeTaiGiangVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T14:11:23.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UCDeTaiSinhVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeTaiSinhVien.xaml",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeTaiSinhVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeTaiSinhVien.xaml",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCDeTaiSinhVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T14:11:02.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UCLuanVanSinhVien.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml.cs",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml.cs",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T17:29:01.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UCDeTaiGiangVien.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml.cs",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml.cs",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCGV\\UCDeTaiGiangVien.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T17:27:05.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FSinhVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FSinhVien.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\Windows\\FSinhVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FSinhVien.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\Windows\\FSinhVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-06T17:35:42.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UCNhom.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCNhom.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCNhom.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCNhom.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCNhom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T14:57:15.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FDangNhap.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FDangNhap.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\Windows\\FDangNhap.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FDangNhap.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\Windows\\FDangNhap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-06T17:35:42.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FDangNhap.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FDangNhap.xaml.cs",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\Windows\\FDangNhap.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FDangNhap.xaml.cs",
+              "RelativeToolTip": "EssayManagement\\Views\\Windows\\FDangNhap.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwCwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T17:35:42.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UCLuanVanSinhVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml",
+              "RelativeDocumentMoniker": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml",
+              "RelativeToolTip": "..\\pull2\\EssayManagement\\Views\\User Control\\UCHS\\UCLuanVanSinhVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T14:12:49.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UCThaoLuan.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCThaoLuan.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCThaoLuan.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCThaoLuan.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCThaoLuan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T15:24:06.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FSinhVien.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FSinhVien.xaml.cs",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\Windows\\FSinhVien.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FSinhVien.xaml.cs",
+              "RelativeToolTip": "EssayManagement\\Views\\Windows\\FSinhVien.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:25:09.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UCDeTaiGiangVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml",
+              "RelativeDocumentMoniker": "..\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml",
+              "RelativeToolTip": "..\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-09T18:14:48.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UCLuanVanGiangVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCLuanVanGiangVien.xaml",
+              "RelativeDocumentMoniker": "..\\pull\\EssayManagement\\Views\\User Control\\UCLuanVanGiangVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCLuanVanGiangVien.xaml",
+              "RelativeToolTip": "..\\pull\\EssayManagement\\Views\\User Control\\UCLuanVanGiangVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-09T18:27:06.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UCThongKe.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCThongKe.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCThongKe.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCThongKe.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCThongKe.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-06T17:35:41.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UCThemDeTai.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCThemDeTai.xaml",
+              "RelativeDocumentMoniker": "..\\pull\\EssayManagement\\Views\\User Control\\UCThemDeTai.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCThemDeTai.xaml",
+              "RelativeToolTip": "..\\pull\\EssayManagement\\Views\\User Control\\UCThemDeTai.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-09T18:20:48.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UCDeXuatDeTai.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCDeXuatDeTai.xaml",
+              "RelativeDocumentMoniker": "..\\pull\\EssayManagement\\Views\\User Control\\UCDeXuatDeTai.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCDeXuatDeTai.xaml",
+              "RelativeToolTip": "..\\pull\\EssayManagement\\Views\\User Control\\UCDeXuatDeTai.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T04:21:21.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FGiangVien.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FGiangVien.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\Windows\\FGiangVien.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\Windows\\FGiangVien.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\Windows\\FGiangVien.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-06T17:35:41.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UCDeTaiGiangVien.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml.cs",
+              "RelativeDocumentMoniker": "..\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml.cs",
+              "RelativeToolTip": "..\\pull\\EssayManagement\\Views\\User Control\\UCDeTaiGiangVien.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T04:44:23.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UCThongKe.xaml.cs",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCThongKe.xaml.cs",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCThongKe.xaml.cs",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCThongKe.xaml.cs",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCThongKe.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAD4vygAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T17:35:41.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UCLuanVan.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCLuanVan.xaml",
+              "RelativeDocumentMoniker": "..\\pull\\EssayManagement\\Views\\User Control\\UCLuanVan.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull\\EssayManagement\\Views\\User Control\\UCLuanVan.xaml",
+              "RelativeToolTip": "..\\pull\\EssayManagement\\Views\\User Control\\UCLuanVan.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-06T17:35:42.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UCTrangChu.xaml",
+              "DocumentMoniker": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCTrangChu.xaml",
+              "RelativeDocumentMoniker": "EssayManagement\\Views\\User Control\\UCTrangChu.xaml",
+              "ToolTip": "D:\\cuong python\\mon hoc\\Window\\Do an\\pull3\\EssayManagement\\Views\\User Control\\UCTrangChu.xaml",
+              "RelativeToolTip": "EssayManagement\\Views\\User Control\\UCTrangChu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-06T17:35:42.025Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

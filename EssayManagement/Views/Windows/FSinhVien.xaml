@@ -1,0 +1,97 @@
+﻿<Window x:Class="EssayManagement.Views.Windows.FSinhVien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EssayManagement.Views.Windows"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:uc="clr-namespace:EssayManagement.Views.User_Control" 
+        xmlns:ucsv="clr-namespace:EssayManagement.Views.User_Control.UCSV"
+        mc:Ignorable="d"
+        Title="Quản Lý Luận Văn - Giảng viên" Height="600" Width="1040" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+    <Border Background="White" CornerRadius="20" Height="600" Width="1040">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="3.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <StackPanel>
+                    <TextBlock Text="QUẢN LÝ LUẬN VĂN" TextAlignment="Center" Margin="0 30 0 20" FontSize="25" FontFamily="Bahnschrift SemiBold Condensed" Foreground="#FF326CF3" FontWeight="Bold"></TextBlock>
+                    <hc:SideMenu BorderThickness="1" Width="auto" Margin="20 20 20 20" Height="300" ItemContainerStyle="{StaticResource SideMenuItemBaseStyle}" BorderBrush="Transparent">
+                        <hc:Interaction.Triggers>
+                            <hc:EventTrigger EventName="SelectionChanged">
+                                <hc:EventToCommand PassEventArgsToCommand="True" />
+                            </hc:EventTrigger>
+                        </hc:Interaction.Triggers>
+                        <hc:SideMenuItem x:Name="sdmTrangChu" Header="Trang chủ" IsSelected="True" Selected="sdmTrangChu_Selected">
+                            <hc:SideMenuItem.Icon>
+                                <Image Width="24" Height="24" Source="/Views/Windows/icons8-home-48.png"/>
+                            </hc:SideMenuItem.Icon>
+                        </hc:SideMenuItem>
+                        <hc:SideMenuItem x:Name="sdmLuanVan" Header="Đăng ký luận văn" Selected="sdmLuanVan_Selected">
+                            <hc:SideMenuItem.Icon>
+                                <Image Width="24" Height="24" Source="/Views/Windows/icons8-document-24.png"/>
+                            </hc:SideMenuItem.Icon>
+                        </hc:SideMenuItem>
+                        <hc:SideMenuItem x:Name="sdmLuanVanCuaToi" Header="Luận văn của tôi" Selected="sdmLuanVanCuaToi_Selected">
+                            <hc:SideMenuItem.Icon>
+                                <Image Width="24" Height="24" Source="/Views/Windows/icons8-book-32.png" />
+                            </hc:SideMenuItem.Icon>
+                        </hc:SideMenuItem>
+                        <hc:SideMenuItem x:Name="sdmNhiemVu" Header="Nhiệm vụ" Selected="sdmNhiemVu_Selected">
+                            <hc:SideMenuItem.Icon>
+                                <Image Width="24" Height="24" Source="/Views/Windows/icons8-task-24.png"></Image>
+                            </hc:SideMenuItem.Icon>
+                        </hc:SideMenuItem>
+                    </hc:SideMenu>
+                    <Button x:Name="btnDangXuat" VerticalAlignment="Bottom" Height="40" Width="auto" BorderThickness="0" Margin="0 120" Click="btnDangXuat_Click" >
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Views/Windows/icons8-logout-48.png"></Image>
+                            <TextBlock Text="Đăng xuất" FontSize="12" VerticalAlignment="Center" Margin="10 0"></TextBlock>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="8*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Border BorderThickness="1 0 0 0" BorderBrush="{DynamicResource BorderBrush}">
+                        <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+                            <TextBlock x:Name="txbTen" Text="Xin chào, Username" TextAlignment="Center" VerticalAlignment="Center" Margin="30 0 5 0"></TextBlock>
+                            <Button x:Name="btnDaiDien" Height="40" Width="40" Padding="0"  Cursor="Hand" Click="btnDaiDien_Click" >
+                                <Button.BorderBrush>
+                                    <SolidColorBrush Color="#FFE0E0E0" Opacity="0"/>
+                                </Button.BorderBrush>
+                                <Image x:Name="imgDaiDien" Source="/Views/Windows/icons8-person-64.png"></Image>
+                            </Button>
+                            <hc:SearchBar x:Name="sbTimKiemSV" Width="250" hc:InfoElement.Placeholder="Tìm kiếm" Style="{StaticResource SearchBarExtend}" HorizontalAlignment="Right" Margin="50,10,30,10" TextChanged="SearchBar_TextChanged"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Border BorderThickness="1 1 0 0" BorderBrush="{DynamicResource BorderBrush}">
+                        <hc:SimplePanel x:Name="MainPnl">
+                            <uc:UCTrangChu x:Name="ucTrangChu" Visibility="Visible"></uc:UCTrangChu>
+                            <uc:UCLuanVanSinhVien x:Name="ucLuanVan" Visibility="Collapsed"></uc:UCLuanVanSinhVien>
+                            <ucsv:UCChuaDuocDuyet x:Name="ucChuaDuocDuyet" Visibility="Collapsed"></ucsv:UCChuaDuocDuyet>
+                            <ucsv:UCDaDuocDuyet x:Name="ucDaDuocDuyet" Visibility="Collapsed"></ucsv:UCDaDuocDuyet>
+                            <uc:UCNhiemVu x:Name="ucNhiemVu" Visibility="Collapsed"></uc:UCNhiemVu>
+                            <uc:UCKhongCoNhiemVu x:Name="ucKhongCoNhiemVu" Visibility="Collapsed"></uc:UCKhongCoNhiemVu>
+                        </hc:SimplePanel>
+                    </Border>
+                </Grid>
+                <DataGrid x:Name="dgvTimKiemSV" AutoGenerateColumns="False" Grid.RowSpan="2" Margin="331,59,232,267" FontSize="12" SelectionChanged="dgvTimKiemGV_SelectionChanged" Width="246" IsReadOnly="True" VerticalAlignment="Top"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

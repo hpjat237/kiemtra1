@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\User Control\HopLuanVan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCCapNhatNhiemVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCChiTietNhiemVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCChamDiem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCChiTietDeTai.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCChiTietLuanVan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCDeTaiGiangVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCDuyetLuanVan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCKhongCoNhiemVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCMotNhiemVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCNhiemVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCSV\UCDangKyLuanVan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCLuanVanGiangVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCThaoLuan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCThemDeTai.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCThemNhiemVu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCThongKe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCTrangChu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\User Control\HopLuanVan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCCapNhatNhiemVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCChiTietNhiemVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCChiTietThongBao.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCChamDiem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCChiTietDeTai.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCChiTietLuanVan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCDeTaiGiangVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCDuyetLuanVan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCThemThongBao.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCHopThongBao.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCKhongCoNhiemVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCMotNhiemVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCNhiemVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCSV\UCDangKyLuanVan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCLuanVanGiangVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCThaoLuan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCThemDeTai.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCThemNhiemVu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCThongKe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCTrangChu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

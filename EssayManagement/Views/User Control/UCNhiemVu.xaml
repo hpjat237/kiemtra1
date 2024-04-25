@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCNhiemVu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="800">
+    <Border Background="White" CornerRadius="20" Height="585" Width="800" VerticalAlignment="Bottom" Margin="0,0,0,0">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnExit" Width="22" Height="22" Command="hc:ControlCommands.Close" Style="{StaticResource ButtonIcon}" Foreground="{DynamicResource PrimaryBrush}" hc:IconElement.Geometry="{StaticResource ErrorGeometry}" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Visibility="Visible"/>
+            <TextBox x:Name="txtMaLuanVan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Mã luận văn" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="20,20,430,0"/>
+            <Grid Grid.Row="0" Margin="-3,55,-3,0">
+                <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
+                    <DataGrid x:Name="dgvNhiemVu" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Width="100" Binding="{Binding TuaDe}" Header="Tiêu đề" FontWeight="Normal" />
+                            <DataGridTextColumn Width="3*" Binding="{Binding MoTa}" Header="Mô tả" FontWeight="Normal" />
+                            <DataGridTextColumn Width="2*" Binding="{Binding NhanXet}" Header="Nhận xét" FontWeight="Normal" />
+                            <DataGridTextColumn Width="100" Binding="{Binding TienDo}" Header="Tiến độ" FontWeight="Normal" />
+                            <DataGridTemplateColumn>
+                                <DataGridTemplateColumn.Header>
+                                    <Button hc:IconElement.Geometry="{StaticResource RotateRightGeometry}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" FontWeight="Bold" Click="btnLoad_Click" ></Button>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button x:Name="btnXemChiTiet" Content="Xem chi tiết" FontWeight="Bold" Click="btnXemChiTiet_Click"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1" Margin="0,0,0,0">
+                <Button x:Name="txtThemTask" Style="{StaticResource ButtonPrimary}" Content="Thêm task" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="80" FontWeight="Bold" Click="btnThemTask_Click"></Button>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

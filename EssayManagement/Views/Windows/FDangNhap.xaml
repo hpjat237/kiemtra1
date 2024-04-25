@@ -1,0 +1,42 @@
+﻿<Window x:Name="FDangNhap" x:Class="EssayManagement.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:local="clr-namespace:EssayManagement"
+        mc:Ignorable="d"
+        Title="Quản Lý Luận Văn - Đăng nhập" Height="440" Width="765" WindowStartupLocation="CenterScreen" Background="Transparent" WindowStyle="None" AllowsTransparency="True">
+
+    <Border Background="White" CornerRadius="20" Height="440" Width="765">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <Image Source="/Views/Windows/LoginCover.jpg"/>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Button x:Name="btnExit" Width="20" Height="20" Margin="0,10,10,0" Padding="1,2,1,1" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" Cursor="Hand" AllowDrop="True" MouseEnter="btnExit_MouseEnter" MouseLeave="btnExit_MouseLeave" Click="btnExit_Click">✖</Button>
+                <StackPanel Margin="50 70">
+                    <TextBlock x:Name="txbDangNhap" Text="Đăng nhập" FontSize="25" FontWeight="Bold"/>
+                    <TextBox x:Name="txtTaiKhoan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.Title="Tài khoản" Width="auto" VerticalAlignment="Center" Margin="0,20,0,0" KeyDown="DangNhap_KeyDown"/>
+                    <PasswordBox  x:Name="txtMatKhau" Style="{DynamicResource PasswordBoxExtend}" PasswordChar="*" 
+                                 hc:TitleElement.Title="Mật khẩu"
+                                 hc:TitleElement.TitlePlacement="Top"
+                                 VerticalAlignment="Center"
+                                 Width="auto" Margin="0,10,0,0" KeyDown="DangNhap_KeyDown"
+                                  />
+                    <CheckBox Content="Nhớ tài khoản của tôi" IsChecked="False" Margin="0,10,0,0"/>
+                    <Button x:Name="btnDangNhap" Style="{StaticResource ButtonPrimary}" Content="Đăng nhập" Margin="0,20,0,0" Width="222" Click="btnDangNhap_Click" />
+
+                </StackPanel>
+            </Grid>
+
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCGV.UCChiTietDeTai"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control.UCGV"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="800">
+    <Border Background="White" CornerRadius="20" Height="550" Width="800">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Button x:Name="btnExit" Width="22" Height="22" Command="hc:ControlCommands.Close" Style="{StaticResource ButtonIcon}" Foreground="{DynamicResource PrimaryBrush}" hc:IconElement.Geometry="{StaticResource ErrorGeometry}" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
+                <DockPanel/>
+                <TextBox x:Name="txtMaDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="70" hc:InfoElement.Title="Mã đề tài" VerticalAlignment="Top" Margin="20,28,433,0" Height="30" IsReadOnly="True"/>
+                <TextBox x:Name="txtTenDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="70" hc:InfoElement.Title="Tên đề tài" VerticalAlignment="Top" Margin="19,77,433,0" Height="75" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top"/>
+                <TextBox x:Name="txtMoTaDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Mô tả đề tài" Margin="20,177,20,222" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" Height="90" VerticalContentAlignment="Top"/>
+                <ComboBox x:Name="cbLinhVuc"  SelectedIndex="0" hc:InfoElement.Title="Lĩnh vực" Style="{StaticResource ComboBoxExtend}" Text="Chọn" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="70" VerticalAlignment="Top" Margin="432,120,21,0" Height="32"/>
+                <TextBox VerticalAlignment="Top" hc:TitleElement.TitleWidth="70" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.Title="Công nghệ" Style="{StaticResource TextBoxExtend}" x:Name="txtCongNghe" Margin="432,77,21,0" IsReadOnly="True" Height="30"/>
+                <TextBox x:Name="txtYeuCau" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Yêu cầu" Margin="19,291,21,108" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" Height="90" VerticalContentAlignment="Top"/>
+                <TextBox x:Name="txtSoLuongThanhVien" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="150" hc:InfoElement.Title="Số lượng thành viên" VerticalAlignment="Top" Margin="20,407,432,0" Height="30" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Button x:Name="btnLuu" Style="{StaticResource ButtonPrimary}" Content="Lưu" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="80" FontWeight="Bold" Click="btnLuu_Click" ></Button>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

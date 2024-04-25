@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCLuanVanSinhVien"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="800">
+    <Border Background="White" CornerRadius="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
+                <DataGrid x:Name="dgvDeTai" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Width="100" Binding="{Binding MaDeTai}" Header="Mã đề tài" FontWeight="Normal" />
+                        <DataGridTextColumn Width="1*" Binding="{Binding TenDeTai}" Header="Tên đề tài" FontWeight="Normal" />
+                        <DataGridTextColumn Width="100" Binding="{Binding LinhVuc}" Header="Lĩnh Vực" FontWeight="Normal" />
+                        <DataGridTextColumn Width="100" Binding="{Binding TrangThai}" Header="Trạng thái" FontWeight="Normal" />
+
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.Header>
+                                <Button x:Name="btnLoad" hc:IconElement.Geometry="{StaticResource RotateRightGeometry}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" FontWeight="Bold" Click="btnLoad_Click" />
+                            </DataGridTemplateColumn.Header>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <hc:CheckComboBox x:Name="ccbLocGV" MaxWidth="380" ItemsSource="{Binding DataList}" Width="200" hc:InfoElement.TitleWidth="50" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Lĩnh vực" hc:InfoElement.Title="Lọc" Style="{StaticResource CheckComboBoxPlus}" Margin="20,0,0,20" VerticalAlignment="Bottom" HorizontalAlignment="Left" SelectionChanged="ccbLocGV_SelectionChanged">
+                    <hc:CheckComboBoxItem Content="Website"/>
+                    <hc:CheckComboBoxItem Content="Application"/>
+                    <hc:CheckComboBoxItem Content="Data"/>
+                    <hc:CheckComboBoxItem Content="AI"/>
+                    <hc:CheckComboBoxItem Content="Security"/>
+                    <hc:CheckComboBoxItem Content="Architecture"/>
+                    <hc:CheckComboBoxItem Content="Cloud"/>
+                </hc:CheckComboBox>
+                <Button x:Name="btnChonDeTai" Style="{StaticResource ButtonPrimary}" Content="Chọn đề tài" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,120,20" FontWeight="Bold" Click="btnChonDeTai_Click"/>
+                <Button x:Name="btnThemDeTai" Style="{StaticResource ButtonPrimary}" Content="Thêm đề tài" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" FontWeight="Bold" Click="btnThemDeTai_Click"/>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

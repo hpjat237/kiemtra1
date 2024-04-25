@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCMotNhiemVu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="150">
+    <Border Background="White" CornerRadius="20" Height="200" Width="150" VerticalAlignment="Bottom" Margin="0,0,0,0">
+        <Grid>
+            <Label x:Name="txtTuaDe" Content="{Binding TuaDe}"  hc:InfoElement.TitlePlacement="Left"  Height="24" VerticalAlignment="Top" Margin="0,8,0,0" FontSize="5" Width="126"/>
+            <Label x:Name="txtMoTa" Content="{Binding MoTa}" hc:InfoElement.TitlePlacement="Left"  Height="93" VerticalAlignment="Top" Margin="0,38,0,0" FontSize="5" Width="134"/>
+            <Label x:Name="txtTienDo" Content="{Binding TienDo}" hc:InfoElement.TitlePlacement="Left"  Height="23" VerticalAlignment="Top" Margin="0,171,0,0" FontSize="5" Width="130"/>
+            <Label x:Name="txtNhanXet" Content="{Binding NhanXet}" hc:InfoElement.TitlePlacement="Left"  Height="30" VerticalAlignment="Top" Margin="0,137,0,0" FontSize="5" Width="127"/>
+        </Grid>
+    </Border>
+</UserControl>

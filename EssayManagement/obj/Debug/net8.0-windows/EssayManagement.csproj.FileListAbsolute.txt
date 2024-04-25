@@ -1,0 +1,546 @@
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CopyComplete
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayMan.DFA401D2.Up2Date
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\App.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CopyComplete
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\App.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CopyComplete
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeTaiSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeXuatDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCLuanVanSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeTaiSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeXuatDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCLuanVanSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeTaiSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeXuatDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCLuanVanSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeTaiSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDeXuatDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCLuanVanSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayMan.DFA401D2.Up2Date
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDangKyLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull2\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHS\UCDangKyLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietLuanVan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanCuaToi.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanCuaToi.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF clone\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanCuaToi.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanCuaToi.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayMan.DFA401D2.Up2Date
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\cuong python\mon hoc\Window\Do an\backup\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanCuaToi.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhom.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanCuaToi.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayMan.DFA401D2.Up2Date
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\cuong python\mon hoc\Window\Do an\pull3\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.g.cs
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.baml
+D:\23daleyyy\Coding\C#\EssayManagement\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.g.cs
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.baml
+C:\Users\NGUYEN PHAT\Desktop\WPF\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\HopLuanVan.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCCapNhatNhiemVu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietNhiemVu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietThongBao.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChamDiem.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemThongBao.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHopThongBao.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCKhongCoNhiemVu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCMotNhiemVu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhiemVu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThemNhiemVu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\WPF clip\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\HopLuanVan.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCCapNhatNhiemVu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietNhiemVu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietThongBao.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChamDiem.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemThongBao.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHopThongBao.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCKhongCoNhiemVu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCMotNhiemVu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhiemVu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThemNhiemVu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CopyComplete
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
