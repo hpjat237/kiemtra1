@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\
 EssayManagement
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Desktop\WPF clip\EssayManagement\App.xaml
-28902748277
+D:\Desktop\WPF clip - Copy\EssayManagement\App.xaml
+311393091246
 
-371658253093
+40571408297
 202984385507
-Views\User Control\HopLuanVan.xaml;Views\User Control\UCCapNhatNhiemVu.xaml;Views\User Control\UCChiTietNhiemVu.xaml;Views\User Control\UCChiTietThongBao.xaml;Views\User Control\UCGV\UCChamDiem.xaml;Views\User Control\UCGV\UCChiTietDeTai.xaml;Views\User Control\UCGV\UCChiTietLuanVan.xaml;Views\User Control\UCGV\UCDeTaiGiangVien.xaml;Views\User Control\UCGV\UCDuyetLuanVan.xaml;Views\User Control\UCGV\UCLuanVanGiangVien.xaml;Views\User Control\UCGV\UCThemDeTai.xaml;Views\User Control\UCGV\UCThemThongBao.xaml;Views\User Control\UCHopThongBao.xaml;Views\User Control\UCKhongCoNhiemVu.xaml;Views\User Control\UCMotNhiemVu.xaml;Views\User Control\UCNhiemVu.xaml;Views\User Control\UCSV\UCChuaDuocDuyet.xaml;Views\User Control\UCSV\UCDaDuocDuyet.xaml;Views\User Control\UCSV\UCDangKyLuanVan.xaml;Views\User Control\UCSV\UCLuanVanSinhVien.xaml;Views\User Control\UCThaoLuan.xaml;Views\User Control\UCThemNhiemVu.xaml;Views\User Control\UCThongKe.xaml;Views\User Control\UCThongTin.xaml;Views\User Control\UCTrangChu.xaml;Views\Windows\FDangNhap.xaml;Views\Windows\FGiangVien.xaml;Views\Windows\FSinhVien.xaml;
+Views\User Control\UCCapNhatNhiemVu.xaml;Views\User Control\UCChiTietNhiemVu.xaml;Views\User Control\UCChiTietThongBao.xaml;Views\User Control\UCGV\UCChamDiem.xaml;Views\User Control\UCGV\UCChiTietChamDiem.xaml;Views\User Control\UCGV\UCChiTietDeTai.xaml;Views\User Control\UCGV\UCChiTietLuanVan.xaml;Views\User Control\UCGV\UCChonHoiDong.xaml;Views\User Control\UCGV\UCDeTaiGiangVien.xaml;Views\User Control\UCGV\UCDuyetLuanVan.xaml;Views\User Control\UCGV\UCLuanVanGiangVien.xaml;Views\User Control\UCGV\UCThemDeTai.xaml;Views\User Control\UCGV\UCThemThongBao.xaml;Views\User Control\UCHopLuanVan.xaml;Views\User Control\UCHopThongBao.xaml;Views\User Control\UCKhongCoNhiemVu.xaml;Views\User Control\UCMotNhiemVu.xaml;Views\User Control\UCNhiemVu.xaml;Views\User Control\UCSV\UCChuaDuocDuyet.xaml;Views\User Control\UCSV\UCDaDuocDuyet.xaml;Views\User Control\UCSV\UCDangKyLuanVan.xaml;Views\User Control\UCSV\UCLuanVanSinhVien.xaml;Views\User Control\UCThaoLuan.xaml;Views\User Control\UCThemNhiemVu.xaml;Views\User Control\UCThongKe.xaml;Views\User Control\UCThongTin.xaml;Views\User Control\UCTienDoLuanVan.xaml;Views\User Control\UCTrangChu.xaml;Views\Windows\FDangNhap.xaml;Views\Windows\FGiangVien.xaml;Views\Windows\FSinhVien.xaml;
 
 False
 

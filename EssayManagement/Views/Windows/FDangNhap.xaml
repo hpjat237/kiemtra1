@@ -15,23 +15,25 @@
                 <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
+            <Border Background="{StaticResource PrimaryBrush}" CornerRadius="20" Height="440" Width="320" HorizontalAlignment="Left"/>
+            <Border Background="{StaticResource PrimaryBrush}" CornerRadius="200" Height="440" Width="200" Grid.ColumnSpan="2" Margin="205,0,360,0"/>
             <Grid Grid.Column="0">
-                <Image Source="/Views/Windows/LoginCover.jpg"/>
+                <Image Source="/Views/Windows/Saly-10.png" Margin="-5,-69,6,69" />
             </Grid>
 
             <Grid Grid.Column="1">
                 <Button x:Name="btnExit" Width="20" Height="20" Margin="0,10,10,0" Padding="1,2,1,1" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent" BorderThickness="0" Cursor="Hand" AllowDrop="True" MouseEnter="btnExit_MouseEnter" MouseLeave="btnExit_MouseLeave" Click="btnExit_Click">✖</Button>
                 <StackPanel Margin="50 70">
                     <TextBlock x:Name="txbDangNhap" Text="Đăng nhập" FontSize="25" FontWeight="Bold"/>
-                    <TextBox x:Name="txtTaiKhoan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.Title="Tài khoản" Width="auto" VerticalAlignment="Center" Margin="0,20,0,0" KeyDown="DangNhap_KeyDown"/>
-                    <PasswordBox  x:Name="txtMatKhau" Style="{DynamicResource PasswordBoxExtend}" PasswordChar="*" 
-                                 hc:TitleElement.Title="Mật khẩu"
-                                 hc:TitleElement.TitlePlacement="Top"
-                                 VerticalAlignment="Center"
-                                 Width="auto" Margin="0,10,0,0" KeyDown="DangNhap_KeyDown"
-                                  />
-                    <CheckBox Content="Nhớ tài khoản của tôi" IsChecked="False" Margin="0,10,0,0"/>
-                    <Button x:Name="btnDangNhap" Style="{StaticResource ButtonPrimary}" Content="Đăng nhập" Margin="0,20,0,0" Width="222" Click="btnDangNhap_Click" />
+                    <TextBox x:Name="txtTaiKhoan" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.Title="Tài khoản" Width="auto" VerticalAlignment="Center" Margin="0,20,0,0"/>
+                    <PasswordBox  x:Name="txtMatKhau" FontFamily="Bahnschrift" Style="{DynamicResource PasswordBoxExtend}" 
+                             hc:TitleElement.Title="Mật khẩu"
+                             hc:TitleElement.TitlePlacement="Top"
+                             VerticalAlignment="Center"
+                             Width="auto" Margin="0,10,0,0" KeyDown="DangNhap_KeyDown"
+                              />
+                    <CheckBox Content="Nhớ tài khoản của tôi" FontFamily="Bahnschrift" IsChecked="False" Margin="0,10,0,0"/>
+                    <Button x:Name="btnDangNhap" FontFamily="Bahnschrift" Style="{StaticResource ButtonPrimary}" Content="Đăng nhập" Margin="0,20,0,0" Width="222" Click="btnDangNhap_Click" />
 
                 </StackPanel>
             </Grid>

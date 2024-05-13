@@ -38,7 +38,6 @@ namespace EssayManagement.Views.User_Control
 
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
-            //ucThongTin.Visibility = Visibility.Collapsed;
         }
 
         private void Button_Click_SuaDiem(object sender, RoutedEventArgs e)

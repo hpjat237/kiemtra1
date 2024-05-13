@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nhDeroc7O8cGEZnHLahzhIy8CrhDj7JmaMAMdKvrKlGvuf/MuVhrRcv1My2Aa+EbPi+xHL+4ytf3i/qjMe0pYw==",
+  "dgSpecHash": "9KfP712/KwXmwChXVMJtt5BCjSqOykcWyCHVbEyy49fqGMjPKNxSNd7xkRfVMoi0DQBhMdTq3B5UcPjffR+hCA==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\WPF clip\\EssayManagement\\EssayManagement.csproj",
+  "projectFilePath": "D:\\Desktop\\WPF clip - Copy\\EssayManagement\\EssayManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NGUYEN PHAT\\.nuget\\packages\\handycontrol\\3.4.0\\handycontrol.3.4.0.nupkg.sha512",
     "C:\\Users\\NGUYEN PHAT\\.nuget\\packages\\handycontrol.lang.en\\3.5.1\\handycontrol.lang.en.3.5.1.nupkg.sha512",

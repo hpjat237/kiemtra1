@@ -20,6 +20,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.SqlClient;
+using System.Windows.Threading;
 using System.Data;
 using EssayManagement.Models;
 using EssayManagement.Views.User_Control.UCGV;
@@ -38,6 +39,11 @@ namespace EssayManagement.Views.User_Control
         public UCDeTaiGiangVien()
         {
             InitializeComponent();
+            load_data();
+        }
+
+        void timer_Tick(object sender, EventArgs e)
+        {
             load_data();
         }
 

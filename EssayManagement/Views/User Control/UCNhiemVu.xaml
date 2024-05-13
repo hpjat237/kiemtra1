@@ -14,15 +14,33 @@
                 <RowDefinition Height="1*"></RowDefinition>
             </Grid.RowDefinitions>
             <Button x:Name="btnExit" Width="22" Height="22" Command="hc:ControlCommands.Close" Style="{StaticResource ButtonIcon}" Foreground="{DynamicResource PrimaryBrush}" hc:IconElement.Geometry="{StaticResource ErrorGeometry}" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0" Visibility="Visible"/>
-            <TextBox x:Name="txtMaLuanVan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Mã luận văn" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="20,20,430,0"/>
+            <TextBox x:Name="txtMaLuanVan" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="90" hc:InfoElement.Title="Mã luận văn" Height="30" VerticalAlignment="Top" IsReadOnly="True" Margin="20,20,430,0"/>
             <Grid Grid.Row="0" Margin="-3,55,-3,0">
                 <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
-                    <DataGrid x:Name="dgvNhiemVu" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10">
+                    <DataGrid x:Name="dgvNhiemVu" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10" FontFamily="Bahnschrift">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Width="100" Binding="{Binding TuaDe}" Header="Tiêu đề" FontWeight="Normal" />
-                            <DataGridTextColumn Width="3*" Binding="{Binding MoTa}" Header="Mô tả" FontWeight="Normal" />
-                            <DataGridTextColumn Width="2*" Binding="{Binding NhanXet}" Header="Nhận xét" FontWeight="Normal" />
-                            <DataGridTextColumn Width="100" Binding="{Binding TienDo}" Header="Tiến độ" FontWeight="Normal" />
+                            <DataGridTemplateColumn Width="2*" Header="Tiêu đề">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock x:Name="txtTenDeTai" Text="{Binding TuaDe}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Width="3*" Header="Mô tả">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock x:Name="txtMoTa" Text="{Binding MoTa}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+<DataGridTemplateColumn Width="2*" Header="Nhận xét">
+    <DataGridTemplateColumn.CellTemplate>
+        <DataTemplate>
+            <TextBlock x:Name="txtNhanXet" Text="{Binding NhanXet}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+        </DataTemplate>
+    </DataGridTemplateColumn.CellTemplate>
+</DataGridTemplateColumn>
+                            <DataGridTextColumn Width="80" Binding="{Binding TienDo}" Header="Tiến độ" FontWeight="Normal" />
                             <DataGridTemplateColumn>
                                 <DataGridTemplateColumn.Header>
                                     <Button hc:IconElement.Geometry="{StaticResource RotateRightGeometry}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" FontWeight="Bold" Click="btnLoad_Click" ></Button>

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -31,6 +32,11 @@ namespace EssayManagement.Views.User_Control
         public UCLuanVanSinhVien()
         {
             InitializeComponent();
+            load_data();
+        }
+
+        void timer_Tick(object sender, EventArgs e)
+        {
             load_data();
         }
 

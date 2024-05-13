@@ -10,11 +10,17 @@
     <Border Background="White" CornerRadius="20">
         <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
             <TabControl Margin="0,10,0,0" Style="{StaticResource TabControlCapsuleSolid}" BorderThickness="0,0,0,0" Background="White">
-                <TabItem x:Name="tabYeuCau" Header="Yêu cầu hướng dẫn" FontFamily="Global Sans Serif" FontWeight="Bold">
-                    <DataGrid x:Name="dgvYeuCau"  HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,0">
+                <TabItem x:Name="tabYeuCau" Header="Yêu cầu hướng dẫn" FontFamily="Bahnschrift" FontWeight="Bold">
+                    <DataGrid x:Name="dgvYeuCau"  HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,0" FontFamily="Bahnschrift">
                         <DataGrid.Columns>
                             <DataGridTextColumn Width="100" Binding="{Binding MaDeTai}" Header="Mã đề tài" FontWeight="Normal"/>
-                            <DataGridTextColumn Width="1*" Binding="{Binding TenDeTai}" Header="Tên đề tài" FontWeight="Normal" />
+                            <DataGridTemplateColumn Width="1*" Header="Tên đề tài">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock x:Name="txtMoTa" Text="{Binding TenDeTai}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
                             <DataGridTextColumn Width="100" Binding="{Binding LinhVuc}" Header="Lĩnh vực" FontWeight="Normal"/>
                             <DataGridTextColumn Width="120" Binding="{Binding NgayKetThuc}" Header="Thời hạn" FontWeight="Normal"/>
                             <DataGridTextColumn Width="100" Binding="{Binding TrangThai}" Header="Trạng thái" FontWeight="Normal"/>
@@ -33,10 +39,16 @@
                 </TabItem>
                 <TabItem x:Name="tabHoTro" Header="Luận văn hỗ trợ" FontFamily="Global Sans Serif" FontWeight="Bold" Margin="0,0,0,0">
                     <StackPanel VerticalAlignment="Center" Height="474" Margin="0,0,0,0" Grid.ColumnSpan="2">
-                        <DataGrid x:Name="dgvHoTro" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,0">
+                        <DataGrid x:Name="dgvHoTro" FontFamily="Bahnschrift" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,0">
                             <DataGrid.Columns>
                                 <DataGridTextColumn IsReadOnly="True" Width="100" Binding="{Binding MaLuanVan}" Header="Mã Nhóm" FontWeight="Normal"/>
-                                <DataGridTextColumn Width="1*" Binding="{Binding TenDeTai}" Header="Tên đề tài" FontWeight="Normal"/>
+                                <DataGridTemplateColumn Width="1*" Header="Tên đề tài">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock x:Name="txtMoTa" Text="{Binding TenDeTai}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
                                 <DataGridTextColumn IsReadOnly="True" Width="100" Binding="{Binding LinhVuc}" Header="Lĩnh vực" FontWeight="Normal"/>
                                 <DataGridTextColumn Width="120" Binding="{Binding NgayKetThuc}" Header="Thời hạn" FontWeight="Normal"/>
                                 <DataGridTextColumn Width="80" Binding="{Binding TienDo}" Header="Tiến độ" FontWeight="Normal"/>

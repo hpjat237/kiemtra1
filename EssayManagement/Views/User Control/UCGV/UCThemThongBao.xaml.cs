@@ -26,15 +26,30 @@ namespace EssayManagement.Views.User_Control.UCGV
     {
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
         DBconnect dBconnect = new DBconnect();
+        string maGV = Database.UserInSession.LoggedInUser.ToString();
 
         public UCThemThongBao()
         {
             InitializeComponent();
+            load_maNhom();
+        }
+
+        private void load_maNhom()
+        {
+            string sqlStr = string.Format("SELECT * FROM LUANVAN WHERE MaGV = '{0}'", maGV);
+            SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+            DataTable dtMaNhom = new DataTable();
+            adapter.Fill(dtMaNhom);
+
+            List<string> lstMaNhom = new List<string>();
+            foreach(DataRow row in dtMaNhom.Rows)
+                lstMaNhom.Add(row["MaLuanVan"].ToString());
+            txtMaNhom.ItemsSource = lstMaNhom;
         }
 
         private void btnThem_Click(object sender, RoutedEventArgs e)
         {
-            string sqlString = string.Format("INSERT INTO THONGBAO(MaNhom, TieuDe, NoiDung, NgayGui) VALUES(N'{0}',N'{1}',N'{2}','{3}')", txtMaNhom.Text, txtTieuDe.Text, txtNoiDung.Text, DateTime.Now);
+            string sqlString = string.Format("INSERT INTO THONGBAO(MaNhom, TieuDe, NoiDung, NgayGui, MaGV) VALUES(N'{0}',N'{1}',N'{2}','{3}', '{4}')", txtMaNhom.Text, txtTieuDe.Text, txtNoiDung.Text, DateTime.Now, maGV);
             dBconnect.ThucThi(sqlString);
             HandyControl: ControlCommands.Close.Execute(null, this);
         }

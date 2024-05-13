@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <None Remove="LoginCover.jpg" />
+    <None Remove="Views\User Control\Saly-1.png" />
     <None Remove="Views\User Control\UCGV\icons8-delete-48.png" />
     <None Remove="Views\User Control\UCGV\icons8-edit-30.png" />
     <None Remove="Views\Windows\icons8-book-32.png" />
@@ -29,12 +30,14 @@
     <None Remove="Views\Windows\icons8-graph-48.png" />
     <None Remove="Views\Windows\icons8-group-48.png" />
     <None Remove="Views\Windows\icons8-home-48.png" />
+    <None Remove="Views\Windows\icons8-hundred-points-48.png" />
     <None Remove="Views\Windows\icons8-list-48.png" />
     <None Remove="Views\Windows\icons8-logout-48.png" />
     <None Remove="Views\Windows\icons8-person-64.png" />
     <None Remove="Views\Windows\icons8-talk-48.png" />
     <None Remove="Views\Windows\icons8-task-24.png" />
     <None Remove="Views\Windows\LoginCover.jpg" />
+    <None Remove="Views\Windows\Saly-10.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Views\User Control\Saly-1.png" />
     <Resource Include="Views\User Control\UCGV\icons8-delete-48.png" />
     <Resource Include="Views\User Control\UCGV\icons8-edit-30.png" />
     <Resource Include="Views\Windows\icons8-book-32.png" />
@@ -54,12 +58,14 @@
     <Resource Include="Views\Windows\icons8-graph-48.png" />
     <Resource Include="Views\Windows\icons8-group-48.png" />
     <Resource Include="Views\Windows\icons8-home-48.png" />
+    <Resource Include="Views\Windows\icons8-hundred-points-48.png" />
     <Resource Include="Views\Windows\icons8-list-48.png" />
     <Resource Include="Views\Windows\icons8-logout-48.png" />
     <Resource Include="Views\Windows\icons8-person-64.png" />
     <Resource Include="Views\Windows\icons8-talk-48.png" />
     <Resource Include="Views\Windows\icons8-task-24.png" />
     <Resource Include="Views\Windows\LoginCover.jpg" />
+    <Resource Include="Views\Windows\Saly-10.png" />
   </ItemGroup>
 
   <ItemGroup>

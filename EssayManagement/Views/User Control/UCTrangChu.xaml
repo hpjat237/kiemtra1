@@ -10,7 +10,7 @@
     <Border Background="White" CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
                 <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
@@ -25,27 +25,49 @@
                                 </LinearGradientBrush>
                             </Border.Background>
                             <TextBlock x:Name="txbXinChao" Text="Xin chào, " FontSize="20
-                                       " Foreground="White" FontFamily="Arial Rounded MT Bold" Margin="40,0,0,30" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                               " Foreground="White" FontFamily="Bahnschrift" Margin="15,0,0,30" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
                         </Border>
-                        <Image Source="/Views/User Control/Saly-1.png" Margin="342,-40,37,-34"/>
+                        <Image  Margin="342,-40,37,-34" Source="/Views/User Control/Saly-1.png" />
                     </Grid>
                     <Border CornerRadius="20" Margin="20,10,20,10" Padding="5" Background="#FFF8F8F8">
                         <StackPanel>
-                            <TextBlock Text="Thông báo" FontSize="20" FontWeight="Bold" FontFamily="Bahnschrift" HorizontalAlignment="Left" Margin="15,10,0,10"/>
-                            <WrapPanel x:Name="wpThongBao" Margin="10"></WrapPanel>
+                            <DockPanel>
+                                <TextBlock Text="Thông báo" FontSize="20" FontWeight="Bold" FontFamily="Bahnschrift" HorizontalAlignment="Left" Margin="15,10,0,10"/>
+                                <Button x:Name="btnLoad" hc:IconElement.Geometry="{StaticResource RotateRightGeometry}" HorizontalAlignment="Right" VerticalAlignment="Center" Width="60" FontWeight="Bold" Click="btnLoad_Click" ></Button>
+                            </DockPanel>
+                            <ScrollViewer Height="304">
+                                <WrapPanel x:Name="wpThongBao" Margin="10"></WrapPanel>
+                            </ScrollViewer>
                         </StackPanel>
                     </Border>
-
                 </StackPanel>
             </Grid>
 
             <Grid Grid.Column="1">
-                <StackPanel>
-                    <Viewbox>
-                        <Calendar Language="vi-vn" Height="300"></Calendar>
-                    </Viewbox>
-                </StackPanel>
-                <Button x:Name="btnThongBao" Style="{StaticResource ButtonPrimary}" Content="Gửi thông báo" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="184" Click="btnThongBao_Click" FontWeight="Bold"></Button>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="0.5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Viewbox>
+                            <Calendar Language="vi" FontFamily="Bahnschrift"></Calendar>
+                        </Viewbox>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Border Background="#FFF8F8F8" CornerRadius="20" Margin="10">
+                            <ScrollViewer>
+                                <StackPanel x:Name="spTienDo" Margin="5">
+                                    <TextBlock x:Name="txbTienDo" Text="Tiến độ" FontWeight="Bold" FontFamily="Bahnschrift" FontSize="15" Margin="10" Width="145" HorizontalAlignment="Left"></TextBlock>
+                                </StackPanel>
+                            </ScrollViewer>
+                        </Border>
+                    </Grid>
+                    <Button x:Name="btnThongBao" Style="{StaticResource ButtonPrimary}" Content="Gửi thông báo" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="184" Click="btnThongBao_Click" FontWeight="Bold" Grid.Row="2"></Button>
+                </Grid>
+
             </Grid>
         </Grid>
     </Border>

@@ -14,13 +14,24 @@
                 <RowDefinition Height="1*"></RowDefinition>
             </Grid.RowDefinitions>
             <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
-                <DataGrid x:Name="dgvDeTai" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10">
+                <DataGrid x:Name="dgvDeTai" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10" FontFamily="Bahnschrift">
                     <DataGrid.Columns>
                         <DataGridTextColumn Width="100" Binding="{Binding MaDeTai}" Header="Mã đề tài" FontWeight="Normal" />
-                        <DataGridTextColumn Width="1*" Binding="{Binding TenDeTai}" Header="Tên đề tài" FontWeight="Normal" />
+                        <DataGridTemplateColumn Width="1*" Header="Tên đề tài">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock x:Name="txtTenDeTai" Text="{Binding TenDeTai}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Width="100" Binding="{Binding LinhVuc}" Header="Lĩnh Vực" FontWeight="Normal" />
-                        <DataGridTextColumn Width="100" Binding="{Binding TrangThai}" Header="Trạng thái" FontWeight="Normal" />
-
+                        <DataGridTemplateColumn Width="100" Header="Trạng thái">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock x:Name="txtTrangThai" Text="{Binding TrangThai}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTemplateColumn>
                             <DataGridTemplateColumn.Header>
                                 <Button x:Name="btnLoad" hc:IconElement.Geometry="{StaticResource RotateRightGeometry}" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" FontWeight="Bold" Click="btnLoad_Click" />

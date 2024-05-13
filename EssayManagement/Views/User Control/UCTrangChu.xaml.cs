@@ -17,9 +17,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EssayManagement.Views.User_Control.UCGV;
+using System.Windows.Threading;
 using EssayManagement.Models;
 using EssayManagement.Views.Windows;
 using EssayManagement.Views.GiangVienForm;
+using EssayManagement.Database;
 
 namespace EssayManagement.Views.User_Control
 {
@@ -29,6 +31,8 @@ namespace EssayManagement.Views.User_Control
     public partial class UCTrangChu : UserControl
     {
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
+        DBconnect db = new DBconnect();
+
         string ma = Database.UserInSession.LoggedInUser.ToString();
 
         public UCTrangChu()
@@ -38,6 +42,7 @@ namespace EssayManagement.Views.User_Control
 
             txbXinChao.Text = "Xin chào, " + dtUser.Rows[0]["HoTen"].ToString();
             load_data();
+            load_TienDoLuanVan();
         }
 
         void DataGrid_LoadingRow(object sender, DataGridRowEventArgs e)
@@ -67,53 +72,12 @@ namespace EssayManagement.Views.User_Control
             }
         }
 
-        /*public void load_data()
-        {
-            try
-            {
-                conn.Open();
-                string sqlStr = string.Format("SELECT * FROM THONGBAO");
-                SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
-                DataTable dtThongBao = new DataTable();
-                adapter.Fill(dtThongBao);
-                dgvThongBao.ItemsSource = dtThongBao.DefaultView;
-            }
-            catch (Exception ex)
-            {
-
-                System.Windows.MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }*/
-
-        /*private void btnLoad_Click(object sender, RoutedEventArgs e)
-        {
-            load_data();
-        }*/
-
-        
-        /*private void btnXemChiTiet_Click(object sender, RoutedEventArgs e)
-        {
-            UCChiTietThongBao ucChiTietThongBao = new UCChiTietThongBao();
-            DataRowView dtr = (DataRowView)dgvThongBao.SelectedItem;
-            ucChiTietThongBao.txtMaNhom.Text = dtr.Row["MaNhom"].ToString();
-            ucChiTietThongBao.txtTieuDe.Text = dtr.Row["TieuDe"].ToString();
-            ucChiTietThongBao.txtNoiDung.Text = dtr.Row["NoiDung"].ToString();
-            ucChiTietThongBao.txtNgayGui.Text = dtr.Row["NgayGui"].ToString();
-            Dialog.Show(ucChiTietThongBao);
-        }*/
-
         private void load_data()
         {
             try
             {
                 conn.Open();
-                string sqlStr = string.Format("SELECT * FROM THONGBAO WHERE MaGV='{0}'", ma);
-                if(ma.Contains("HS"))
-                    sqlStr = string.Format("SELECT * FROM THONGBAO WHERE MaNhom='{0}'", ma); // chua xu ly sinh vien
+                string sqlStr = string.Format("SELECT * FROM THONGBAO");
                 SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
                 DataTable dtThongBao = new DataTable();
                 adapter.Fill(dtThongBao);
@@ -137,10 +101,68 @@ namespace EssayManagement.Views.User_Control
             }
         }
 
+        private void load_TienDoLuanVan()
+        {
+            try
+            {
+                conn.Open();
+                if (ma.Contains("GV"))
+                {
+                    string sqlStr = string.Format("SELECT * FROM LUANVAN WHERE MaGV = '{0}'", ma);
+                    SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                    DataTable dtLuanVan = new DataTable();
+                    adapter.Fill(dtLuanVan);
+                    foreach (DataRow row in dtLuanVan.Rows)
+                    {
+                        UCTienDoLuanVan ucTienDoLuanVan = new UCTienDoLuanVan();
+                        ucTienDoLuanVan.txbMaNhom.Text = "👤 " + row["MaLuanVan"].ToString();
+                        ucTienDoLuanVan.txbTenLuanVan.Text = row["TenDeTai"].ToString();
+                        ucTienDoLuanVan.wpbTienDo.Value = Convert.ToInt32(row["TienDo"].ToString());
+                        ucTienDoLuanVan.txbWaveValue.Text = row["TienDo"].ToString() + '%';
+                        spTienDo.Children.Add(ucTienDoLuanVan);
+                    }
+                }
+                else
+                {
+                    string sqlStr = string.Format("SELECT MaNhom FROM SINHVIEN WHERE MaSV = '{0}'", ma);
+                    var maNhom = db.LayGiaTri(sqlStr);
+                    sqlStr = string.Format("SELECT * FROM NHIEMVU WHERE MaLuanVan = '{0}'", maNhom);
+                    SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                    DataTable dtNhiemVu = new DataTable();
+                    adapter.Fill(dtNhiemVu);
+                    foreach (DataRow row in dtNhiemVu.Rows)
+                    {
+                        UCTienDoLuanVan ucTienDoLuanVan = new UCTienDoLuanVan();
+                        ucTienDoLuanVan.txbMaNhom.Text = "👤 " + row["MaLuanVan"].ToString();
+                        ucTienDoLuanVan.txbTenLuanVan.Text = row["TuaDe"].ToString();
+                        ucTienDoLuanVan.wpbTienDo.Value = Convert.ToInt32(row["TienDo"].ToString());
+                        ucTienDoLuanVan.txbWaveValue.Text = row["TienDo"].ToString() + '%';
+                        spTienDo.Children.Add(ucTienDoLuanVan);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                System.Windows.MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
         private void btnThongBao_Click(object sender, RoutedEventArgs e)
         {
 
             Dialog.Show(new UCThemThongBao());
+        }
+
+        private void btnLoad_Click(object sender, RoutedEventArgs e)
+        {
+            wpThongBao.Children.Clear();
+            load_data();
+
         }
     }
 }

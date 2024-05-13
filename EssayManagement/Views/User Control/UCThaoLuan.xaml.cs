@@ -1,5 +1,11 @@
-﻿using System;
+﻿using EssayManagement.Database;
+using EssayManagement.Views.User_Control.UCHS;
+using HandyControl.Controls;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,70 +26,98 @@ namespace EssayManagement.Views.User_Control
     /// </summary>
     public partial class UCThaoLuan : UserControl
     {
+        SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
+        DBconnect dBconnect = new DBconnect();
+        string ma = Database.UserInSession.LoggedInUser.ToString();
         public UCThaoLuan()
         {
             InitializeComponent();
         }
-        /*public struct ChatInfoModel
+        private void Refresh_Click(object sender, RoutedEventArgs e)
         {
-            public object Message { get; set; }
-
-            public string SenderId { get; set; }
-
-            public ChatRoleType Role { get; set; }
-
-            public ChatMessageType Type { get; set; }
-
-            public object Enclosure { get; set; }
-        }*/
-        //public ObservableCollection<ChatInfoModel> ChatInfos { get; set; } = new ObservableCollection<ChatInfoModel>();
-        /*public interface IEnumerable
-        {
-            IEnumerator GetEnumerator();
+            ChatListBox.Items.Clear();
+            AddMessageToChat();
         }
-        private void btnGui_Click(object sender, RoutedEventArgs e)
-        {
-            //ChatBox.AppendText(txtTinNhan.Text);
-            //ChatBox.ScrollToEnd();
-            var info = new ChatInfoModel
-            {
-                Message = "Hello",
-                SenderId = "1",
-                Type = ChatMessageType.String,
-                Role = ChatRoleType.Sender
-            };
-            ChatInfos.Add(info);
-        }
-        private bool _autoScroll = true;
-        private void ScrollViewer_OnScrollChanged(object sender, ScrollChangedEventArgs e)
-        {
-            if (e.ExtentHeightChange == 0)
-            {
-                _autoScroll = ScrollViewer.VerticalOffset == ScrollViewer.ScrollableHeight;
-            }
-
-            if (_autoScroll && e.ExtentHeightChange != 0)
-            {
-                ScrollViewer.ScrollToVerticalOffset(ScrollViewer.ExtentHeight);
-            }
-        }*/
         private void SendMessageButton_Click(object sender, RoutedEventArgs e)
         {
+            UCChiTietNhiemVu ucchitietnhiemvu = new UCChiTietNhiemVu();
             string message = MessageTextBox.Text;
             if (!string.IsNullOrWhiteSpace(message))
             {
-                AddMessageToChat("You", message);
-                // Tại đây, bạn có thể gửi tin nhắn đến người nhận, xử lý logic liên quan đến giao tiếp mạng, v.v.
-                // Ví dụ:
-                // client.SendMessage(message);
+                DataTable dtNguoiGui = load_data_SV(ma);
+                string sqlStr = "";
+                if(ma.Contains("SV"))
+                    sqlStr = string.Format("SELECT HoTen FROM SINHVIEN WHERE MaSV = '{0}'", ma);
+                else
+                    sqlStr = string.Format("SELECT HoTen FROM GIANGVIEN WHERE MaGV = '{0}'", ma);
+                var Ten = dBconnect.LayGiaTri(sqlStr);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                string sqlString = string.Format("INSERT INTO HOITHOAI(MaNhiemVu,NguoiGui,NoiDung,ThoiGian) VALUES('{0}',N'{1}',N'{2}','{3}')", txtMaNhiemVu.Text, Ten.ToString(), message, DateTime.Now);
+                dBconnect.ThucThi(sqlString);
                 MessageTextBox.Clear();
+                LoadMessage(Ten.ToString(), message,DateTime.Now.ToString());
             }
         }
 
-        private void AddMessageToChat(string sender, string message)
+        public void AddMessageToChat()
         {
-            ChatListBox.Items.Add($"{sender}: {message}");
+            UCChiTietNhiemVu ucchitietnhiemvu = new UCChiTietNhiemVu();
+            DataTable dtHoiThoai = load_data();
+            for (int i = 0; i < dtHoiThoai.Rows.Count; i++)
+            {
+                LoadMessage(dtHoiThoai.Rows[i]["NguoiGui"].ToString(), dtHoiThoai.Rows[i]["NoiDung"].ToString(), dtHoiThoai.Rows[i]["ThoiGian"].ToString());
+            }
+        }
+        private void LoadMessage(string sender, string message, string time)
+        {
+            ChatListBox.Items.Add($"({time})\n{sender}: {message}\n");
             ChatListBox.ScrollIntoView(ChatListBox.Items[ChatListBox.Items.Count - 1]);
+        }
+        public DataTable load_data()
+        {
+            UCChiTietNhiemVu ucchitietnhiemvu = new UCChiTietNhiemVu();
+            try
+            {
+                conn.Open();
+                string sqlStrHT = string.Format("SELECT * FROM HOITHOAI WHERE MaNhiemVu='{0}'", txtMaNhiemVu.Text);
+                SqlDataAdapter adapterSV = new SqlDataAdapter(sqlStrHT, conn);
+                DataTable dtHoiThoai = new DataTable();
+                adapterSV.Fill(dtHoiThoai);
+                return dtHoiThoai;
+            }
+            catch (Exception ex)
+            {
+                HandyControl.Controls.MessageBox.Show(ex.Message);
+                return null;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        public DataTable load_data_SV(string ma)
+        {
+            try
+            {
+                conn.Open();
+                string sqlStr = string.Format("SELECT * FROM SINHVIEN,GIANGVIEN WHERE MaSV='{0}' OR MaGV='{0}'", ma);
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                return dt;
+            }
+            catch (Exception ex)
+            {
+                System.Windows.MessageBox.Show(ex.Message);
+                return null;
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
     }
 }

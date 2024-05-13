@@ -45,11 +45,9 @@ namespace EssayManagement.Views.User_Control.UCGV
                 txtNhanXet.Text, txtMaYeuCau.Text, txtMaDeTai.Text, txtTenDeTai.Text, maGV, txtNgayDangKy.Text, txtNgayKetThuc.Text, 0, txtMoTa.Text, txtNhanXet.Text, txtCongNghe.Text, cbLinhVuc.Text, txtYeuCau.Text, "Đã được đăng ký");
             dBconnect.ThucThi(sqlStr);
 
-            // LAY MALUANVAN
             sqlStr = string.Format("SELECT MaLuanVan FROM LUANVAN WHERE MaDeTai = '{0}'", txtMaDeTai.Text);
             var maLuanVan = dBconnect.LayGiaTri(sqlStr);
 
-            // THEM SINHVIEN
             sqlStr = string.Format("SELECT MaSV FROM SINHVIEN WHERE MaNhom ='{0}'", txtMaYeuCau.Text);
             SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
             DataTable dtSVThamGia = new DataTable();

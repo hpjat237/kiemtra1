@@ -14,7 +14,7 @@
                 <RowDefinition Height="1*"></RowDefinition>
             </Grid.RowDefinitions>
             <StackPanel VerticalAlignment="Top" Height="520" Margin="0,0,0,0">
-                <DataGrid x:Name="dgvYeuCauDuyet" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10">
+                <DataGrid x:Name="dgvYeuCauDuyet" HeadersVisibility="Column" RowHeaderWidth="60" AutoGenerateColumns="False" LoadingRow="DataGrid_LoadingRow" FontWeight="Bold" IsReadOnly="True" Margin="10,10,10,10" FontFamily="Bahnschrift">
                     <DataGrid.Columns>
                         <DataGridTextColumn Width="100" Binding="{Binding MaYeuCau}" Header="Mã yêu cầu" FontWeight="Normal" />
                         <DataGridTextColumn Width="100" Binding="{Binding MaDeTai}" Header="Mã đề tài" FontWeight="Normal" />

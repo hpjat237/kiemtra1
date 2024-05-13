@@ -655,11 +655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\WPF clip\\EssayManagement\\EssayManagement.csproj",
+      "projectUniqueName": "D:\\Desktop\\WPF clip - Copy\\EssayManagement\\EssayManagement.csproj",
       "projectName": "EssayManagement",
-      "projectPath": "D:\\Desktop\\WPF clip\\EssayManagement\\EssayManagement.csproj",
+      "projectPath": "D:\\Desktop\\WPF clip - Copy\\EssayManagement\\EssayManagement.csproj",
       "packagesPath": "C:\\Users\\NGUYEN PHAT\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\WPF clip\\EssayManagement\\obj\\",
+      "outputPath": "D:\\Desktop\\WPF clip - Copy\\EssayManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -33,9 +34,15 @@ namespace EssayManagement.Views.User_Control.UCSV
         {
             InitializeComponent();
             ConfigHelper.Instance.SetLang("en");
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
+        }
+        void timer_Tick(object sender, EventArgs e)
+        {
             load_data(maSV);
         }
-
         public void load_data(string maSV)
         {
             try

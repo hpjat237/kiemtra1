@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="EssayManagement.Views.User_Control.UCTienDoLuanVan"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:local="clr-namespace:EssayManagement.Views.User_Control"
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="220" Margin="5">
+    <Border Background="White" Height="60" Width="220" CornerRadius="10" Padding="2">
+        <Grid>
+            <ScrollViewer>
+                <TextBlock x:Name="txbTenLuanVan" Text="Tên luận văn" FontFamily="Bahnschrift" FontSize="10" FontWeight="Bold" Width="156" Height="36" TextWrapping="WrapWithOverflow" Margin="5,5,0,0" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Top"></TextBlock>
+            </ScrollViewer>
+            <TextBlock x:Name="txbMaNhom" Text="👤Mã nhóm" FontFamily="Bahnschrift" FontSize="11" Width="130" Height="12" Margin="3,0,0,3" TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="Black" Opacity="0.8"/>
+                </TextBlock.Foreground></TextBlock>
+            <hc:WaveProgressBar x:Name="wpbTienDo" Width="45" Height="45" WaveFill="{StaticResource PrimaryBrush}" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+            <TextBlock x:Name="txbWaveValue" Text="100%" Height="15" Margin="174,20,14,20" FontFamily="Bahnschrift" TextAlignment="Center"/>
+        </Grid>
+    </Border>
+</UserControl>

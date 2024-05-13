@@ -7,16 +7,15 @@
              xmlns:local="clr-namespace:EssayManagement.Views.User_Control"
              mc:Ignorable="d" 
              d:DesignHeight="180" d:DesignWidth="150" Margin="5">
-    <Border Background="White" CornerRadius="20" Height="180" Width="150" Cursor="Hand">
+    <Border Background="White" CornerRadius="20" Height="180" Width="130" Cursor="Hand">
         <StackPanel>
             <StackPanel Height="150" VerticalAlignment="Top">
-                <TextBlock x:Name="txbNgayGui" Text="🕑 Ngày gửi" Margin="15 15 15 0" FontFamily="Bahnschrift" Opacity="0.5" FontSize="10" TextWrapping="WrapWithOverflow"></TextBlock>
-                <TextBlock x:Name="txbTieuDe" Text="Tiêu đề" Margin="15 15 15 0" FontFamily="Bahnschrift" FontSize="20" Height="auto" MaxHeight="50" TextWrapping="WrapWithOverflow"></TextBlock>
-                <TextBlock x:Name="txbNoiDung" Text="Nội dung" Margin="15 15 15 0" FontFamily="Bahnschrift" Height="auto" MaxHeight="30" TextWrapping="WrapWithOverflow"></TextBlock>
+                <TextBlock x:Name="txbNgayGui" Text="🕑 Ngày gửi" Margin="10 10 10 0" FontFamily="Bahnschrift" Opacity="0.5" FontSize="7" TextWrapping="WrapWithOverflow"></TextBlock>
+                <TextBlock x:Name="txbTieuDe" Text="Tiêu đề" Margin="10 5 10 0" FontFamily="Bahnschrift" FontSize="15" Height="auto" MaxHeight="50" TextWrapping="WrapWithOverflow"></TextBlock>
+                <ScrollViewer Height="110">
+                    <TextBlock x:Name="txbNoiDung" Text="Nội dung" Margin="10 5 10 0" VerticalAlignment="Top" FontFamily="Bahnschrift" FontSize="10" Height="90" TextWrapping="WrapWithOverflow"></TextBlock>
+                </ScrollViewer>
             </StackPanel>
-            <Border CornerRadius="8" Background="{StaticResource PrimaryBrush}" Width="60" Height="17" HorizontalAlignment="Left" Margin="15,0,0,0">
-                <TextBlock x:Name="txbTrangThai" Text="Chưa xem" HorizontalAlignment="Center" Foreground="White" FontFamily="Bahnschrift" VerticalAlignment="Center" FontSize="10"></TextBlock>
-            </Border>
         </StackPanel>
     </Border>
 </UserControl>

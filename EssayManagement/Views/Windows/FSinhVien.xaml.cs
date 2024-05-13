@@ -82,11 +82,11 @@ namespace EssayManagement.Views.Windows
                 ucDaDuocDuyet.txtNgayDangKy.Text = dtLuanVan.Rows[0]["NgayDangKy"].ToString();
                 ucDaDuocDuyet.txtNgayKetThuc.Text = dtLuanVan.Rows[0]["NgayKetThuc"].ToString();
                 ucDaDuocDuyet.txtHoTro.Text = dtLuanVan.Rows[0]["MaGV"].ToString();
-                ucDaDuocDuyet.cbTienDo.Text = dtLuanVan.Rows[0]["TienDo"].ToString();
+                ucDaDuocDuyet.sldTienDo.Value = (byte)dtLuanVan.Rows[0]["TienDo"];
                 ucDaDuocDuyet.txtYeuCau.Text = dtLuanVan.Rows[0]["YeuCau"].ToString();
                 ucDaDuocDuyet.txtNhanXet.Text = dtLuanVan.Rows[0]["NhanXet"].ToString();
+                ucDaDuocDuyet.txtDiem.Text = dtLuanVan.Rows[0]["Diem"].ToString();
 
-                // Load danh sách sinh viên tham gia
                 conn.Open();
                 sqlStr = string.Format("SELECT MaSV, HoTen FROM SINHVIEN WHERE MaNhom='{0}'", maNhom);
                 adapter = new SqlDataAdapter(sqlStr, conn);
@@ -99,7 +99,13 @@ namespace EssayManagement.Views.Windows
                 }
                 conn.Close();
 
-                ucDaDuocDuyet.txtSVThamGia.Text = SVThamGia; // Thêm danh sách sinh viên tham gia vào textbox
+                ucDaDuocDuyet.txtSVThamGia.Text = SVThamGia;
+
+                if (dtLuanVan.Rows[0]["TrangThai"].ToString() == "DaCham")
+                {
+                    ucDaDuocDuyet.btnNopBai.IsEnabled = false;
+                    ucDaDuocDuyet.btnLuu.IsEnabled = false;
+                }
 
                 setActiveUserControl(ucDaDuocDuyet);
             }

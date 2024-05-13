@@ -18,26 +18,30 @@
             <Grid Grid.Row="0">
                 <Button x:Name="btnExit" Width="22" Height="22" Command="hc:ControlCommands.Close" Style="{StaticResource ButtonIcon}" Foreground="{DynamicResource PrimaryBrush}" hc:IconElement.Geometry="{StaticResource ErrorGeometry}" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
                 <DockPanel/>
-                <TextBox x:Name="txtMaLuanVan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Mã luận văn" VerticalAlignment="Top" Margin="20,47,410,0" Height="30" Width="370" IsReadOnly="True"/>
-                <TextBox x:Name="txtMaDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Mã đề tài" VerticalAlignment="Center" Margin="20,0,410,0" Height="30" Width="370" IsReadOnly="True"/>
-                <TextBox x:Name="txtTenDeTai" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Tên đề tài" VerticalAlignment="Top" Margin="20,121,410,0" Height="30" Width="370" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" IsReadOnly="True"/>
-                <TextBox x:Name="txtTienDo" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Tiến độ" VerticalAlignment="Top" Margin="20,160,410,0" Height="30" Width="370" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" IsReadOnly="False"/>
-                <hc:DateTimePicker x:Name="dtpNgayDangKy" Width="370" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" Style="{StaticResource DateTimePickerExtend}" hc:TitleElement.Title="Ngày đăng ký" Margin="409,121,21,47" Height="32"/>
-                <hc:DateTimePicker x:Name="dtpNgayKetThuc" Width="370" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" Style="{StaticResource DateTimePickerExtend}" hc:TitleElement.Title="Ngày kết thúc" Margin="409,158,21,10" Height="32"/>
-                <ComboBox x:Name="cbLinhVuc" ItemsSource="{Binding LinhVuc}" SelectedIndex="0" hc:TitleElement.Title="Lĩnh vực" Style="{StaticResource ComboBoxExtend}" Text="Chọn" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.TitleWidth="85" VerticalAlignment="Center" Margin="409,0,21,0" Height="32" Width="370"/>
-                <TextBox VerticalAlignment="Top" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.Title="Công nghệ" Style="{StaticResource TextBoxExtend}" x:Name="txtCongNghe" Margin="409,47,21,0" IsReadOnly="True" Height="30" Width="370"/>
+                <TextBox x:Name="txtMaLuanVan" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Mã luận văn" VerticalAlignment="Top" Margin="20,47,410,0" Height="30" Width="370" IsReadOnly="True"/>
+                <TextBox x:Name="txtMaDeTai" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Mã đề tài" VerticalAlignment="Center" Margin="20,0,410,0" Height="30" Width="370" IsReadOnly="True"/>
+                <TextBox x:Name="txtTenDeTai" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Tên đề tài" VerticalAlignment="Top" Margin="20,124,410,0" Height="65" Width="370" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" IsReadOnly="True"/>
+                <hc:DateTimePicker FontFamily="Bahnschrift" x:Name="dtpNgayDangKy" Width="370" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" Style="{StaticResource DateTimePickerExtend}" hc:TitleElement.Title="Ngày đăng ký" Margin="409,121,21,47" Height="32"/>
+                <hc:DateTimePicker FontFamily="Bahnschrift" x:Name="dtpNgayKetThuc" Width="370" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" Style="{StaticResource DateTimePickerExtend}" hc:TitleElement.Title="Ngày kết thúc" Margin="409,158,21,10" Height="32"/>
+                <ComboBox FontFamily="Bahnschrift" x:Name="cbLinhVuc" ItemsSource="{Binding LinhVuc}" SelectedIndex="0" hc:TitleElement.Title="Lĩnh vực" Style="{StaticResource ComboBoxExtend}" Text="Chọn" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.TitleWidth="85" VerticalAlignment="Center" Margin="409,0,21,0" Height="32" Width="370"/>
+                <TextBox FontFamily="Bahnschrift" VerticalAlignment="Top" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" hc:TitleElement.Title="Công nghệ" Style="{StaticResource TextBoxExtend}" x:Name="txtCongNghe" Margin="409,47,21,0" IsReadOnly="True" Height="30" Width="370"/>
             </Grid>
             <Grid Grid.Row="1">
-                <TextBox x:Name="txtMoTa" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left"  hc:InfoElement.Placeholder="Mô tả" Margin="20,10,241,113" TextWrapping="Wrap" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top" IsReadOnly="True" Grid.Row="1"/>
-                <TextBox x:Name="txtYeuCau" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Yêu cầu" Margin="20,100,241,10" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" Height="90" VerticalContentAlignment="Top" Grid.Row="1"/>
-                <TextBox x:Name="txtSVThamGia" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Sinh viên tham gia" Margin="585,10,10,10" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top" Grid.Row="1"/>
+                <TextBox x:Name="txtMoTa" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left"  hc:InfoElement.Placeholder="Mô tả" Margin="20,10,241,113" TextWrapping="Wrap" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top" IsReadOnly="True" Grid.Row="1"/>
+                <TextBox x:Name="txtYeuCau" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Yêu cầu" Margin="20,100,241,10" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" Height="90" VerticalContentAlignment="Top" Grid.Row="1"/>
+                <TextBox x:Name="txtSVThamGia" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left" hc:InfoElement.Placeholder="Sinh viên tham gia" Margin="585,10,10,112" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top"/>
+                <Label FontFamily="Bahnschrift" HorizontalAlignment="Left" Margin="656,102,0,0" VerticalAlignment="Top" BorderThickness="0" Width="59">Tiến độ</Label>
+                <hc:PreviewSlider Name="sldTienDo" Value="0" Maximum="100" Margin="584,135,15,37">
+                    <hc:PreviewSlider.PreviewContent>
+                        <Label Style="{StaticResource LabelPrimary}" Content="{Binding Path=(hc:PreviewSlider.PreviewPosition),RelativeSource={RelativeSource Self}}" ContentStringFormat="#00"/>
+                    </hc:PreviewSlider.PreviewContent>
+                </hc:PreviewSlider>
             </Grid>
             <Grid Grid.Row="2">
-                <TextBox x:Name="txtNhanXet" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="80" hc:InfoElement.Title="Nhận xét" VerticalAlignment="Top" Margin="20,0,264,0" Height="30" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032"/>
+                <TextBox x:Name="txtNhanXet" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="80" hc:InfoElement.Title="Nhận xét" VerticalAlignment="Top" Margin="20,0,264,0" Height="30" TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.124,0.032"/>
                 <Button x:Name="txtNhiemVu" Style="{StaticResource ButtonPrimary}" Content="Nhiệm vụ" HorizontalAlignment="Right" Margin="0,0,120,20" VerticalAlignment="Bottom" Width="80" FontWeight="Bold" Click="txtNhiemVu_Click" ></Button>
                 <Button x:Name="txtLuu" Style="{StaticResource ButtonPrimary}" Content="Lưu" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="80" FontWeight="Bold" Click="txtLuu_Click" ></Button>
             </Grid>
-
         </Grid>
     </Border>
 </UserControl>

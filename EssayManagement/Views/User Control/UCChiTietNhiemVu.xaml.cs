@@ -40,6 +40,9 @@ namespace EssayManagement.Views.User_Control
         private void btnThaoLuan_Click(object sender, RoutedEventArgs e)
         {
             UCThaoLuan ucThaoLuan = new UCThaoLuan();
+            ucThaoLuan.txtMaNhiemVu.Text = txtMaNhiemVu.Text.ToString();
+            ucThaoLuan.ChatListBox.Items.Clear();
+            ucThaoLuan.AddMessageToChat();
             Dialog.Show(ucThaoLuan);
         }
     }

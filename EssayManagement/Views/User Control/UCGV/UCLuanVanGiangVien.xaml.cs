@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -32,6 +33,14 @@ namespace EssayManagement.Views.User_Control
         {
             InitializeComponent();
             ConfigHelper.Instance.SetLang("en");
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
+        }
+
+        void timer_Tick(object sender, EventArgs e)
+        {
             load_data(maGV);
         }
 
@@ -66,43 +75,12 @@ namespace EssayManagement.Views.User_Control
                 conn.Close();
             }
         }
-        /* public void load_data(string ma)
-         {
-             try
-             {
-                 conn.Open();
-                 string sqlStr = string.Format("SELECT * FROM LUANVAN WHERE MaGV='{0}'", ma);
-                 string sqlStr = string.Format("SELECT * FROM YEUCAUDANGKY WHERE MaGV='{0}'", ma);
-                 SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
-                 DataTable dt = new DataTable();
-                 adapter.Fill(dt);
-                 dgvYeuCau.ItemsSource = dt.DefaultView;
-                 *//*if (dt.Rows.Count > 0)
-                 {
-                     DataRow row = dt.Rows[0];
-                     UCHangLuanVan.txtMaDeTai.Text = row["MaDeTai"].ToString();
-                     UCHangLuanVan.txtTenDeTai.Text = row["TenDeTai"].ToString();
-                     UCHangLuanVan.txtMaDeTai.Text = row["ThoiHan"].ToString();
-                     UCHangLuanVan.txtMaDeTai.Text = row["TrangThai"].ToString();
-                 }*//*
-             }
-             catch (Exception ex)
-             {
-                 HandyControl.Controls.MessageBox.Show(ex.Message);
-             }
-             finally
-             {
-                 conn.Close();
-             }
-         }*/
-
 
         private void btnXemChiTietYC_Click(object sender, RoutedEventArgs e)
         {
             UCDuyetLuanVan ucDuyetLuanVan = new UCDuyetLuanVan();
             DataRowView dtr = (DataRowView)dgvYeuCau.SelectedItem;
 
-            // Binding dữ liệu vào UCDuyetLuanVan
             ucDuyetLuanVan.txtMaYeuCau.Text = dtr.Row["MaYeuCau"].ToString();
             ucDuyetLuanVan.txtMaDeTai.Text = dtr.Row["MaDeTai"].ToString();
             ucDuyetLuanVan.txtTenDeTai.Text = dtr.Row["TenDeTai"].ToString();
@@ -116,7 +94,6 @@ namespace EssayManagement.Views.User_Control
             ucDuyetLuanVan.txtTrangThai.Text = dtr.Row["TrangThai"].ToString();
             ucDuyetLuanVan.txtYeuCau.Text = dtr.Row["YeuCau"].ToString();
 
-            // Load danh sách sinh viên tham gia
             conn.Open();
             sqlStr = string.Format("SELECT MaSV, HoTen FROM SINHVIEN WHERE MaNhom='{0}'", dtr.Row["MaYeuCau"].ToString());
             SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
@@ -156,12 +133,11 @@ namespace EssayManagement.Views.User_Control
             ucChiTietLuanVan.cbLinhVuc.Text = dtr.Row["LinhVuc"].ToString();
             ucChiTietLuanVan.dtpNgayDangKy.Text = dtr.Row["NgayDangKy"].ToString();
             ucChiTietLuanVan.dtpNgayKetThuc.Text = dtr.Row["NgayKetThuc"].ToString();
-            ucChiTietLuanVan.txtTienDo.Text = dtr.Row["TienDo"].ToString();
+            ucChiTietLuanVan.sldTienDo.Value = (byte)dtr.Row["TienDo"];
             ucChiTietLuanVan.txtMoTa.Text = dtr.Row["MoTa"].ToString();
             ucChiTietLuanVan.txtNhanXet.Text = dtr.Row["NhanXet"].ToString();
             ucChiTietLuanVan.txtYeuCau.Text = dtr.Row["YeuCau"].ToString();
 
-            // Load danh sách sinh viên tham gia
             conn.Open();
             string sqlStr = string.Format("SELECT MaSV, HoTen FROM SINHVIEN WHERE MaNhom='{0}'", dtr.Row["MaLuanVan"].ToString());
             SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);

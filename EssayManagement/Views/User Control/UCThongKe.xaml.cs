@@ -16,6 +16,10 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.SqlClient;
 using System.Data;
+using LiveCharts.Configurations;
+using System.Collections.ObjectModel;
+using System.Reflection.Emit;
+using EssayManagement.Models;
 
 namespace EssayManagement.Views.User_Control
 {
@@ -28,150 +32,156 @@ namespace EssayManagement.Views.User_Control
         public UCThongKe()
         {
             InitializeComponent();
-            BasicColumn();
-            PieChart();
+            LoadChartData();
+            load_dataSV();
         }
 
-        public void BasicColumn()
+
+        class LuotDK
         {
-            SeriesCollection = new SeriesCollection
+            public string HoTen { get; set; }
+            public int LuotDangKy { get; set; }
+        }
+
+        private void LoadChartData()
+        {
+            Dictionary<string, int> LuotDangKy = GetLuanVanData();
+            Dictionary<string, string> GiangVien = GetDSGiangVien();
+            List<LuotDK> list = new List<LuotDK>();
+
+            foreach (var item in LuotDangKy)
             {
-                new ColumnSeries
-                {
-                    Values = new ChartValues<double> { 10, 50, 39, 50 }
-                }
-            };
+                list.Add(new LuotDK { HoTen = item.Key, LuotDangKy = item.Value });
+            }
 
-            Labels = new[] { "7", "8", "9", "10" };
-            Formatter = value => value.ToString("N");
+            list.Sort((x, y) => y.LuotDangKy.CompareTo(x.LuotDangKy));
+
+            SeriesCollection = new SeriesCollection();
+
+            foreach (var item in list)
+            {
+                SeriesCollection.Add(new RowSeries
+                {
+                    Title = GiangVien[item.HoTen],
+                    Values = new ChartValues<int> { item.LuotDangKy }
+                });
+            }
 
             DataContext = this;
         }
 
-        public void PieChart()
+        private Dictionary<string, int> GetLuanVanData()
         {
-            PointLabel = chartPoint =>
-                string.Format("{0} ({1:P})", chartPoint.Y, chartPoint.Participation);
-            DataContext = this;
+            Dictionary<string, int> LuotDangKy = new Dictionary<string, int>();
+            string query = "SELECT * FROM LUANVAN";
+
+            try
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand(query, conn);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    if (LuotDangKy.ContainsKey(reader["MaGV"].ToString()))
+                    {
+                        LuotDangKy[reader["MaGV"].ToString()]++;
+                    }
+                    else
+                    {
+                        LuotDangKy[reader["MaGV"].ToString()] = 1;
+                    }
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return LuotDangKy;
+        }
+
+        private Dictionary<string, string> GetDSGiangVien()
+        {
+            Dictionary<string, string> GiangVien = new Dictionary<string, string>();
+            string query = "SELECT * FROM GIANGVIEN";
+
+            try
+            {
+                conn.Open();
+                SqlCommand command = new SqlCommand(query, conn);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    GiangVien[reader["MaGV"].ToString()] = reader["HoTen"].ToString();
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return GiangVien;
         }
 
         public SeriesCollection SeriesCollection { get; set; }
-        public string[] Labels { get; set; }
-        public Func<double, string> Formatter { get; set; }
-        public Func<ChartPoint, string> PointLabel { get; set; }
 
-        private void Chart_OnDataClick(object sender, ChartPoint chartpoint)
+        private void CartesianChart_DataClick(object sender, ChartPoint chartPoint)
         {
-            var chart = (LiveCharts.Wpf.PieChart)chartpoint.ChartView;
-
-            //clear selected slice.
-            foreach (PieSeries series in chart.Series)
-                series.PushOut = 0;
-
-            var selectedSeries = (PieSeries)chartpoint.SeriesView;
-            selectedSeries.PushOut = 8;
+            Dictionary<string, string> GiangVien = GetDSGiangVien();
+            string maGV = GiangVien.FirstOrDefault(x => x.Value == chartPoint.SeriesView.Title).Key;
+            txbTenGV.Text = chartPoint.SeriesView.Title;
+            load_data(maGV);
         }
 
-        /*public void BasicColumn_Diem()
-        {
-            DataTable dtLuanVan = load_data();
-            if (dtLuanVan != null && dtLuanVan.Rows.Count > 0)
-            {
-                List<int> diemList = new List<int>();
-                foreach (DataRow row in dtLuanVan.Rows)
-                {
-                    int diem = Convert.ToInt32(row["Diem"]);
-                    diemList.Add(diem);
-                }
-
-                SeriesCollection = new SeriesCollection
-        {
-            new ColumnSeries
-            {
-                Title = "Điểm",
-                Values = new ChartValues<int>(diemList)
-            }
-        };
-
-                Labels = diemList.Select((val, index) => (index + 1).ToString()).ToArray();
-                Formatter = value => value.ToString("N");
-            }
-            DataContext = this;
-        }*/
-
-        /*public void PieChart_LinhVuc()
-        {
-            DataTable dtLuanVan = load_data();
-            if (dtLuanVan != null && dtLuanVan.Rows.Count > 0)
-            {
-                Dictionary<string, int> fieldCounts = new Dictionary<string, int>();
-                foreach (DataRow row in dtLuanVan.Rows)
-                {
-                    string field = row["LinhVuc"].ToString();
-                    if (fieldCounts.ContainsKey(field))
-                        fieldCounts[field]++;
-                    else
-                        fieldCounts.Add(field, 1);
-                }
-
-                SeriesCollection = new SeriesCollection();
-                foreach (var item in fieldCounts)
-                {
-                    SeriesCollection.Add(new PieSeries
-                    {
-                        Title = item.Key,
-                        Values = new ChartValues<int> { item.Value },
-                        DataLabels = true
-                    });
-                }
-            }
-            DataContext = this;
-        }*/
-        /*
-        public void PieChart_GiangVienHoTro()
-        {
-            DataTable dtLuanVan = load_data(); // Load dữ liệu từ cơ sở dữ liệu
-            if (dtLuanVan != null && dtLuanVan.Rows.Count > 0)
-            {
-                Dictionary<string, int> gvCounts = new Dictionary<string, int>();
-                foreach (DataRow row in dtLuanVan.Rows)
-                {
-                    string maGV = row["MaGV"].ToString();
-                    if (gvCounts.ContainsKey(maGV))
-                        gvCounts[maGV]++;
-                    else
-                        gvCounts.Add(maGV, 1);
-                }
-
-                SeriesCollection = new SeriesCollection();
-                foreach (var item in gvCounts)
-                {
-                    SeriesCollection.Add(new PieSeries
-                    {
-                        Title = item.Key,
-                        Values = new ChartValues<int> { item.Value },
-                        DataLabels = true
-                    });
-                }
-            }
-            DataContext = this;
-        }*/
-
-        public DataTable load_data()
+        private void load_data(string maGV)
         {
             try
             {
                 conn.Open();
-                string sqlStr = string.Format("SELECT * FROM LUANVAN");
+                string sqlStr = string.Format("SELECT * FROM LUANVAN WHERE MaGV = '{0}' ORDER BY MaDeTai", maGV);
                 SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
                 DataTable dtLuanVan = new DataTable();
                 adapter.Fill(dtLuanVan);
-                return dtLuanVan;
+                dgv.ItemsSource = dtLuanVan.DefaultView;
             }
             catch (Exception ex)
             {
                 HandyControl.Controls.MessageBox.Show(ex.Message);
-                return null;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        private void load_dataSV()
+        {
+            string sqlStr = "SELECT * FROM LUANVAN INNER JOIN SINHVIEN ON LUANVAN.MaLuanVan = SINHVIEN.MaNhom WHERE NgayKetThuc < GETDATE() AND TienDo < 100";
+            try
+            {
+                conn.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+                DataTable dtLuanVan = new DataTable();
+                adapter.Fill(dtLuanVan);
+                dgvSV.ItemsSource = dtLuanVan.DefaultView;
+            }
+            catch (Exception ex)
+            {
+                HandyControl.Controls.MessageBox.Show(ex.Message);
             }
             finally
             {

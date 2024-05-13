@@ -47,14 +47,14 @@
                         </hc:SideMenuItem>
                         <hc:SideMenuItem x:Name="sdmChamDiem" Header="Chấm điểm" Selected="sdmChamDiem_Selected">
                             <hc:SideMenuItem.Icon>
-                                <Image></Image>
+                                <Image Width="24" Height="24" Source="/Views/Windows/icons8-hundred-points-48.png"/>
                             </hc:SideMenuItem.Icon>
                         </hc:SideMenuItem>
                     </hc:SideMenu>
                     <Button x:Name="btnDangXuat" VerticalAlignment="Bottom" Height="40" Width="auto" BorderThickness="0" Margin="0 120" Click="btnDangXuat_Click" >
                         <StackPanel Orientation="Horizontal">
                             <Image Source="/Views/Windows/icons8-logout-48.png"></Image>
-                            <TextBlock Text="Đăng xuất" FontSize="12" VerticalAlignment="Center" Margin="10 0"></TextBlock>
+                            <TextBlock Text="Đăng xuất" FontSize="12" VerticalAlignment="Center" Margin="10 0" FontFamily="Bahnschrift"></TextBlock>
                         </StackPanel>
                     </Button>
                 </StackPanel>
@@ -69,14 +69,14 @@
                 <Grid x:Name="grHeader" Grid.Row="0">
                     <Border BorderThickness="1 0 0 0" BorderBrush="{DynamicResource BorderBrush}">
                         <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
-                            <TextBlock x:Name="txbTen" Text="" TextAlignment="Center" VerticalAlignment="Center" Margin="30 0 5 0"></TextBlock>
+                            <TextBlock x:Name="txbTen" Text="" TextAlignment="Center" VerticalAlignment="Center" Margin="30 0 5 0" FontFamily="Bahnschrift"></TextBlock>
                             <Button x:Name="btnDaiDien" Height="40" Width="40" Padding="0"  Cursor="Hand" Click="btnDaiDien_Click" >
                                 <Button.BorderBrush>
                                     <SolidColorBrush Color="#FFE0E0E0" Opacity="0"/>
                                 </Button.BorderBrush>
                                 <Image x:Name="imgDaiDien" Source="/Views/Windows/icons8-person-64.png"></Image>
                             </Button>
-                            <hc:SearchBar x:Name="sbTimKiemGV" Width="250" hc:InfoElement.Placeholder="Tìm kiếm" Style="{StaticResource SearchBarExtend}" HorizontalAlignment="Right" Margin="50,10,30,10" TextChanged="SearchBar_TextChanged"/>
+                            <hc:SearchBar x:Name="sbTimKiemGV" FontFamily="Bahnschrift" Width="250" hc:InfoElement.Placeholder="Tìm kiếm" Style="{StaticResource SearchBarExtend}" HorizontalAlignment="Right" Margin="50,10,30,10" TextChanged="SearchBar_TextChanged"/>
                         </StackPanel>
                     </Border>
                 </Grid>
@@ -92,7 +92,7 @@
                         </hc:SimplePanel>
                     </Border>
                 </Grid>
-                <DataGrid x:Name="dgvTimKiemGV" AutoGenerateColumns="False" Grid.RowSpan="2" Margin="331,59,232,267" FontSize="12" SelectionChanged="dgvTimKiemGV_SelectionChanged" Width="246" IsReadOnly="True" VerticalAlignment="Top"/>
+                <DataGrid x:Name="dgvTimKiemGV" AutoGenerateColumns="False" Grid.RowSpan="2" Margin="311,59,252,0" FontSize="12" SelectionChanged="dgvTimKiemGV_SelectionChanged" Width="246" IsReadOnly="True" VerticalAlignment="Top"/>
             </Grid>
         </Grid>
     </Border>

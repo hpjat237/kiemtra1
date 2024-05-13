@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\User Control\HopLuanVan.xaml.cs">
+    <Compile Update="Views\User Control\UCHopLuanVan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\User Control\UCCapNhatNhiemVu.xaml.cs">
@@ -19,10 +19,16 @@
     <Compile Update="Views\User Control\UCGV\UCChamDiem.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\User Control\UCGV\UCChiTietChamDiem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\User Control\UCGV\UCChiTietDeTai.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\User Control\UCGV\UCChiTietLuanVan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\User Control\UCGV\UCChonHoiDong.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\User Control\UCGV\UCDeTaiGiangVien.xaml.cs">
@@ -55,15 +61,12 @@
     <Compile Update="Views\User Control\UCThemNhiemVu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\User Control\UCThongKe.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Views\User Control\UCTrangChu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Views\User Control\HopLuanVan.xaml">
+    <Page Update="Views\User Control\UCHopLuanVan.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\User Control\UCCapNhatNhiemVu.xaml">
@@ -78,10 +81,16 @@
     <Page Update="Views\User Control\UCGV\UCChamDiem.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\User Control\UCGV\UCChiTietChamDiem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\User Control\UCGV\UCChiTietDeTai.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\User Control\UCGV\UCChiTietLuanVan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCGV\UCChonHoiDong.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\User Control\UCGV\UCDeTaiGiangVien.xaml">
@@ -121,6 +130,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\User Control\UCThongKe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\User Control\UCTienDoLuanVan.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\User Control\UCTrangChu.xaml">

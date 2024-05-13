@@ -9,17 +9,67 @@
              mc:Ignorable="d" 
              d:DesignHeight="550" d:DesignWidth="800">
     <Border Background="White" CornerRadius="20">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1.5*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <Grid Grid.Column="0"/>
-
-            <Grid Grid.Column="1">
-                <StackPanel/>
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Danh sách sinh viên không hoàn thành bài luận văn" TextWrapping="WrapWithOverflow" Margin="15" FontSize="20" FontWeight="Bold"></TextBlock>
+                    <DataGrid x:Name="dgvSV" AutoGenerateColumns="False" FontFamily="Bahnschrift">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Width="1.3*" Binding="{Binding HoTen}" Header="Họ và tên" FontWeight="Normal" />
+                            <DataGridTextColumn Width="1*" Binding="{Binding MaSV}" Header="Mã sinh viên" FontWeight="Normal" />
+                            <DataGridTextColumn Width="2*" Binding="{Binding TenDeTai}" Header="Tên đề tài" FontWeight="Normal" />
+                            <DataGridTextColumn Width="1.5*" Binding="{Binding NgayKetThuc}" Header="Ngày kết thúc" FontWeight="Normal" />
+                            <DataGridTextColumn Width="1*" Binding="{Binding TienDo}" Header="Tiến độ" FontWeight="Normal" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
             </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <StackPanel>
+                        <TextBlock Text="🔝Lượt đăng ký theo từng giảng viên" TextWrapping="WrapWithOverflow" Margin="15" FontSize="20" FontWeight="Bold"></TextBlock>
+                        <lvc:CartesianChart Series="{Binding SeriesCollection}" LegendLocation="Bottom" Zoom="None" Margin="15" Height="185" DataClick="CartesianChart_DataClick">
+                            <lvc:CartesianChart.AxisY>
+                                <lvc:Axis Title="Giảng viên" Labels="{Binding Labels}" DisableAnimations="True"/>
+                            </lvc:CartesianChart.AxisY>
+                            <lvc:CartesianChart.AxisX>
+                                <lvc:Axis Title="Lượt đăng ký">
+                                    <lvc:Axis.Separator>
+                                        <lvc:Separator Step="1"></lvc:Separator>
+                                    </lvc:Axis.Separator>
+                                </lvc:Axis>
+                            </lvc:CartesianChart.AxisX>
+                        </lvc:CartesianChart>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <StackPanel>
+                        <TextBlock x:Name="txbTenGV" Text="" Margin="15" FontSize="25" FontWeight="Bold"></TextBlock>
+                        <DataGrid x:Name="dgv" Margin="15" AutoGenerateColumns="False" VerticalScrollBarVisibility="Auto" FontFamily="Bahnschrift">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Width="100" Binding="{Binding MaDeTai}" Header="Mã đề tài" FontWeight="Normal" />
+                                <DataGridTemplateColumn Width="1*" Header="Tên luận văn">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock x:Name="txtMoTa" Text="{Binding TenDeTai}" TextWrapping="Wrap" FontWeight="Normal" Foreground="Black"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+
         </Grid>
     </Border>
 </UserControl>

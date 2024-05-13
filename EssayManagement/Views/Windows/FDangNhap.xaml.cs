@@ -80,23 +80,6 @@ namespace EssayManagement
             {
                 GrowlSettings.ShowGrowlError("Tài khoản không tồn tại!");
             }
-            /*string taiKhoan = txtTaiKhoan.Text;
-            if (taiKhoan.Contains("sv"))
-            {
-                FSinhVien fSinhVien = new FSinhVien();
-                fSinhVien.Show();
-                FDangNhap.Hide();
-            }
-            else if (taiKhoan.Contains("gv"))
-            {
-                FGiangVien fGiangVien = new FGiangVien();
-                fGiangVien.Show();
-                FDangNhap.Hide();
-            }
-            else
-            {
-                MessageBox.Show("sv hoặc gv");
-            }*/
         }
 
         public DataTable load_data()

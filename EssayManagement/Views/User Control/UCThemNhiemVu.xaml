@@ -15,17 +15,17 @@
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
                 <Button x:Name="btnExit" Width="22" Height="22" Command="hc:ControlCommands.Close" Style="{StaticResource ButtonIcon}" Foreground="{DynamicResource PrimaryBrush}" hc:IconElement.Geometry="{StaticResource ErrorGeometry}" Padding="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,10,0"/>
-                <TextBox x:Name="txtMaLuanVan" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Mã luận văn" VerticalAlignment="Top" Margin="20,40,390,0" Height="35" IsReadOnly="True"/>
-                <TextBox x:Name="txtTuaDe" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Tiêu đề" TextWrapping="Wrap" VerticalContentAlignment="Top" Margin="20,91,390,209" Height="75"/>
-                <Label HorizontalAlignment="Left" Margin="412,130,0,0" VerticalAlignment="Top" BorderThickness="0" Width="59">Tiến độ</Label>
+                <TextBox x:Name="txtMaLuanVan" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Mã luận văn" VerticalAlignment="Top" Margin="20,40,390,0" Height="35" IsReadOnly="True"/>
+                <TextBox x:Name="txtTuaDe" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Tiêu đề" TextWrapping="Wrap" VerticalContentAlignment="Top" Margin="20,91,390,209" Height="75"/>
+                <Label HorizontalAlignment="Left" FontFamily="Bahnschrift" Margin="412,130,0,0" VerticalAlignment="Top" BorderThickness="0" Width="59">Tiến độ</Label>
                 <hc:PreviewSlider Name="sldTienDo" Value="0" Maximum="100" Margin="513,135,20,210">
                     <hc:PreviewSlider.PreviewContent>
                         <Label Style="{StaticResource LabelPrimary}" Content="{Binding Path=(hc:PreviewSlider.PreviewPosition),RelativeSource={RelativeSource Self}}" ContentStringFormat="#00"/>
                     </hc:PreviewSlider.PreviewContent>
                 </hc:PreviewSlider>
-                <hc:DateTimePicker x:Name="dtpThoiHan" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" Style="{StaticResource DateTimePickerExtend}" hc:TitleElement.Title="Thời Hạn" Margin="421,40,20,299" Height="32"/>
-                <TextBox x:Name="txtMoTa" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left"  hc:InfoElement.Placeholder="Mô tả" Margin="25,197,15,60" TextWrapping="Wrap" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top"/>
-                <TextBox x:Name="txtNhanXet" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Nhận xét" VerticalAlignment="Top" Margin="22,328,388,0" Height="35"/>
+                <hc:DateTimePicker x:Name="dtpThoiHan" FontFamily="Bahnschrift" hc:TitleElement.TitleWidth="85" hc:TitleElement.TitlePlacement="Left" Style="{StaticResource DateTimePickerExtend}" hc:TitleElement.Title="Thời Hạn" Margin="421,40,20,299" Height="32"/>
+                <TextBox x:Name="txtMoTa" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:TitleElement.TitlePlacement="Left"  hc:InfoElement.Placeholder="Mô tả" Margin="25,197,15,60" TextWrapping="Wrap" RenderTransformOrigin="0.124,0.032" VerticalContentAlignment="Top"/>
+                <TextBox x:Name="txtNhanXet" FontFamily="Bahnschrift" Style="{StaticResource TextBoxExtend}" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.TitleWidth="85" hc:InfoElement.Title="Nhận xét" VerticalAlignment="Top" Margin="22,328,388,0" Height="35"/>
 
             </Grid>
             <Grid Grid.Row="1">

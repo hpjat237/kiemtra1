@@ -16,6 +16,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EssayManagement.Database;
 using HandyControl.Interactivity;
+using HandyControl.Controls;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace EssayManagement.Views.User_Control.UCSV
 {
@@ -24,26 +27,42 @@ namespace EssayManagement.Views.User_Control.UCSV
     /// </summary>
     public partial class UCDaDuocDuyet : UserControl
     {
+        SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
         DBconnect dBconnect = new DBconnect();
+        
         public UCDaDuocDuyet()
         {
             InitializeComponent();
             List<string> LinhVuc = new List<string> { "Website", "Application", "AI", "Data", "Cloud", "Security", "Architecture" };
             cbLinhVuc.ItemsSource = LinhVuc;
-            List<short> TienDo = new List<short> { 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
-            cbTienDo.ItemsSource = TienDo;
+            
         }
+
+        /*private void load()
+        {
+            string sqlStr = "SELECT * FROM LUANVAN WHERE MaLuanVan";
+            DataTable dtLuanVan = new DataTable();
+            
+            SqlDataAdapter adapter = new SqlDataAdapter(sqlStr, conn);
+            adapter.Fill(dtLuanVan);
+        }*/
 
         private void btnLuu_Click(object sender, RoutedEventArgs e)
         {
-            string sqlStr = string.Format("UPDATE LUANVAN SET TienDo=N'{0}' WHERE MaLuanVan = '{1}'",cbTienDo.Text, txtMaLuanVan.Text);
+            int roundedTienDo = (int)Math.Round(sldTienDo.Value);
+            string sqlStr = string.Format("UPDATE LUANVAN SET TienDo=N'{0}' WHERE MaLuanVan = '{1}'", roundedTienDo.ToString(), txtMaLuanVan.Text);
             dBconnect.ThucThi(sqlStr);
             HandyControl: ControlCommands.Close.Execute(null, this);
         }
 
-        private void txtMaLuanVan_TextChanged(object sender, TextChangedEventArgs e)
+        private void btnNhiemVu_Click(object sender, RoutedEventArgs e)
         {
-
+            int roundedTienDo = (int)Math.Round(sldTienDo.Value);
+            if (roundedTienDo == 100)
+            {
+                HandyControl.Controls.MessageBox.Show("Nộp thành công");
+            }
+            else HandyControl.Controls.MessageBox.Show("Tiến độ chưa đạt 100%");
         }
     }
 }

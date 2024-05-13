@@ -544,3 +544,99 @@ D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagem
 D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
 D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
 D:\Desktop\WPF clip\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.exe
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll.config
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.deps.json
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.runtimeconfig.json
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\EssayManagement.pdb
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\HandyControl.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\en\HandyControl.resources.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.AssemblyReference.cache
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCCapNhatNhiemVu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietNhiemVu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietThongBao.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChamDiem.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemThongBao.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHopThongBao.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCKhongCoNhiemVu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCMotNhiemVu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhiemVu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThemNhiemVu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\App.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.cache
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement_MarkupCompile.lref
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\App.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCCapNhatNhiemVu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietNhiemVu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCChiTietThongBao.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChamDiem.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietDeTai.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietLuanVan.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDeTaiGiangVien.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCDuyetLuanVan.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCLuanVanGiangVien.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemDeTai.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCThemThongBao.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHopThongBao.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCKhongCoNhiemVu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCMotNhiemVu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCNhiemVu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCChuaDuocDuyet.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDaDuocDuyet.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCDangKyLuanVan.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCSV\UCLuanVanSinhVien.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThaoLuan.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThemNhiemVu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongKe.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCThongTin.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTrangChu.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FDangNhap.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FGiangVien.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\Windows\FSinhVien.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.g.resources
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfoInputs.cache
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.AssemblyInfo.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CoreCompileInputs.cache
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.sourcelink.json
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.csproj.CopyComplete
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\refint\EssayManagement.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.pdb
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\EssayManagement.genruntimeconfig.cache
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\ref\EssayManagement.dll
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietChamDiem.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChiTietChamDiem.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChonHoiDong.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCGV\UCChonHoiDong.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTienDoLuanVan.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCTienDoLuanVan.baml
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHopLuanVan.g.cs
+D:\Desktop\WPF clip - Copy\EssayManagement\obj\Debug\net8.0-windows\Views\User Control\UCHopLuanVan.baml

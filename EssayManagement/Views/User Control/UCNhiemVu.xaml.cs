@@ -21,6 +21,7 @@ using System.Xml.Linq;
 using EssayManagement.Database;
 using EssayManagement.Views.User_Control.UCHS;
 using EssayManagement.Models;
+using System.Windows.Threading;
 using EssayManagement.Views.User_Control.UCGV;
 
 namespace EssayManagement.Views.User_Control
@@ -42,6 +43,10 @@ namespace EssayManagement.Views.User_Control
                 btnExit.Visibility = Visibility.Collapsed;
             }
             InitializeComponent();
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
         }
         public UCNhiemVu(string maLuanVan)
         {
@@ -52,6 +57,14 @@ namespace EssayManagement.Views.User_Control
             }
             maLV = maLuanVan;
             InitializeComponent();
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
+        }
+
+        void timer_Tick(object sender, EventArgs e)
+        {
             load_data(maNguoiDung);
         }
 
